@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="//kenve.github.io/"/>
-  <updated>2017-04-26T17:11:11.950Z</updated>
+  <updated>2017-05-07T09:23:45.532Z</updated>
   <id>//kenve.github.io/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tests</title>
+    <link href="//kenve.github.io/2017/04/26/hello-world/"/>
+    <id>//kenve.github.io/2017/04/26/hello-world/</id>
+    <published>2017-04-25T16:00:00.000Z</published>
+    <updated>2017-05-07T09:23:45.532Z</updated>
+    
+    <content type="html"><![CDATA[<p>hello my blog!<br>changed to the new theme</p>
+<a id="more"></a>
+<p>more</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;hello my blog!&lt;br&gt;changed to the new theme&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="javascript" scheme="//kenve.github.io/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>移动端自适应解决方案</title>
@@ -159,29 +182,6 @@
     
     
       <category term="随笔" scheme="//kenve.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Tests</title>
-    <link href="//kenve.github.io/2016/04/10/hello-world/"/>
-    <id>//kenve.github.io/2016/04/10/hello-world/</id>
-    <published>2016-04-09T16:00:00.000Z</published>
-    <updated>2017-05-07T09:21:06.041Z</updated>
-    
-    <content type="html"><![CDATA[<p>hello my blog!</p>
-<a id="more"></a>
-<p>more</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;hello my blog!&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="javascript" scheme="//kenve.github.io/tags/javascript/"/>
     
   </entry>
   
