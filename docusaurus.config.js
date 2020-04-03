@@ -30,6 +30,9 @@ module.exports = {
           path: './blog',
           routeBasePath: '/',
         },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
       },
     ],
   ],
