@@ -7,6 +7,12 @@ module.exports = {
   organizationName: 'kenve',
   projectName: 'kenve.github.io',
   themeConfig: {
+    announcementBar: {
+      id: 'supportus',
+      content:
+        '<b>⭐️ Welcome to star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve/kenve.github.io">GitHub</a> ⭐️</b>',
+      textColor: '#fff',
+    },
     navbar: {
       title: "Kenve's Blog",
       links: [
