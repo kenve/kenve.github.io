@@ -17,6 +17,12 @@ module.exports = {
       title: "Kenve's Blog",
       links: [
         {
+          to: 'docs/interview/introduction',
+          activeBasePath: 'interview',
+          label: '前端面试',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/kenve',
           label: 'GitHub',
           position: 'right',
@@ -32,6 +38,11 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/kenve/kenve.github.io/edit/docusaurus/',
+        },
         blog: {
           path: './blog',
           routeBasePath: '/',
