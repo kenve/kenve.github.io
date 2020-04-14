@@ -6,5 +6,6 @@ module.exports = {
     HTML: [],
     CSS: [],
     JavaScript: ['interview/js/js-array'],
+    算法: ['interview/algorithms/euclidean'],
   },
 };
