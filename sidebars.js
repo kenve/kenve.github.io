@@ -6,7 +6,11 @@ module.exports = {
     HTML: [],
     CSS: [],
     JavaScript: ['interview/js/js-array'],
-    数据结构: ['interview/data-structure/stack', 'interview/data-structure/queue'],
+    数据结构: [
+      'interview/data-structure/stack',
+      'interview/data-structure/queue',
+      'interview/data-structure/deque',
+    ],
     算法: ['interview/algorithms/euclidean'],
   },
 };
