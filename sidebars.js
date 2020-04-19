@@ -10,6 +10,7 @@ module.exports = {
       'interview/data-structure/stack',
       'interview/data-structure/queue',
       'interview/data-structure/deque',
+      'interview/data-structure/linked-list',
     ],
     算法: ['interview/algorithms/euclidean'],
   },
