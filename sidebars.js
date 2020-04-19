@@ -5,7 +5,7 @@ module.exports = {
     浏览器: ['interview/browser/browser-process-and-thread'],
     HTML: [],
     CSS: [],
-    JavaScript: ['interview/js/js-array'],
+    JavaScript: ['interview/js/js-array', 'interview/js/handwritten-code'],
     数据结构: [
       'interview/data-structure/stack',
       'interview/data-structure/queue',
