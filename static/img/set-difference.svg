@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+   viewBox="0 -150 450 300"
+   width="900" height="600">
+  <desc>
+     Set intersection
+  </desc>
+  <line x1="150" y1="0" x2="210" y2="115" stroke="black" stroke-width="2"/>
+  <circle
+     style="fill:lightsalmon;stroke:black;stroke-width:3"
+     r="120"
+     cy="0"
+     cx="150" />
+  <circle
+     style="fill:white;stroke:none"
+     r="120"
+     cy="0"
+     cx="300" />
+  <circle
+     style="fill:blue;stroke:black;stroke-width:3;fill-opacity:.4"
+     r="120"
+     cy="0"
+     cx="300" />
+  <circle
+     style="fill:none;stroke:black;stroke-width:3;stroke-dasharray:8,8"
+     r="120" cy="0" cx="150" />
+  <text
+     style="font-size:30;font-weight:bold;font:arial"
+     y="10"
+     x="80">A\B</text>
+  <text style="font-size:30;font-weight:bold;font:arial" y="130" x="210">A</text>
+  <text
+     style="font-size:30;font-weight:bold;font:arial"
+     y="10"
+     x="350">B</text>
+</svg>
