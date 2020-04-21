@@ -14,6 +14,11 @@ module.exports = {
       textColor: '#fff',
     },
     sidebarCollapsible: false,
+    algolia: {
+      appId: '6CQ6YKM30R',
+      apiKey: 'f0aabab58cfbfc636e7127eee7542206',
+      indexName: 'kenve-github-io',
+    },
     navbar: {
       title: "Kenve's Blog",
       links: [
@@ -41,8 +46,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/kenve/kenve.github.io/edit/docusaurus/',
+          editUrl: 'https://github.com/kenve/kenve.github.io/edit/docusaurus/',
         },
         blog: {
           path: './blog',
