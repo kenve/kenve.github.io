@@ -13,49 +13,49 @@
 <link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.png">
 
 
-<link rel="stylesheet" href="/styles.7e98767a.css">
+<link rel="stylesheet" href="/styles.80d11f75.css">
 
 
-<link rel="preload" href="/styles.14b434b9.js" as="script">
+<link rel="preload" href="/styles.d3ba4e78.js" as="script">
 
-<link rel="preload" href="/runtime~main.4edb14ff.js" as="script">
+<link rel="preload" href="/runtime~main.84f694ab.js" as="script">
 
-<link rel="preload" href="/main.9b520a85.js" as="script">
+<link rel="preload" href="/main.7288979f.js" as="script">
 
-<link rel="preload" href="/1.374bedff.js" as="script">
+<link rel="preload" href="/1.30cc38a8.js" as="script">
 
-<link rel="preload" href="/2.5028d0db.js" as="script">
+<link rel="preload" href="/2.4d13094b.js" as="script">
 
-<link rel="preload" href="/3.c42ea025.js" as="script">
+<link rel="preload" href="/3.8d84e0a3.js" as="script">
 
-<link rel="preload" href="/ccc49370.ca6195ca.js" as="script">
+<link rel="preload" href="/ccc49370.a44525fe.js" as="script">
 
-<link rel="preload" href="/7e066e01.c77ab2dd.js" as="script">
+<link rel="preload" href="/7e066e01.5152e171.js" as="script">
 
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=window.matchMedia("(prefers-color-scheme: dark)"),n=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();null!==n?t(n):e.matches&&t("dark")}()</script>
 <div id="__docusaurus">
-<nav class="navbar navbar--light navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a aria-current="page" class="navbar__brand active" href="/"><strong class="navbar__title">Kenve&#x27;s Blog</strong></a></div><div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/docs/interview/introduction">前端面试</a><a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve" class="navbar__item navbar__link">GitHub</a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_1gtM"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_keGJ moon_1gwN"></span></div><div class="react-toggle-track-x"><span class="toggle_keGJ sun_3CPA"></span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a aria-current="page" class="navbar__brand active" href="/"><strong class="navbar__title">Kenve&#x27;s Blog</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/docs/interview/introduction">前端面试</a></li><li class="menu__list-item"><a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve" class="menu__link">GitHub</a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="container margin-vert--xl"><div class="row"><div class="col col--8 col--offset-2"><article><header><h1 class="margin-bottom--sm blogPostTitle_2RZH">发版规则</h1><div class="margin-vert--md"><time datetime="2018-09-13T00:00:00.000Z" class="blogPostDate_3tRe">September 13, 2018</time></div><div class="avatar margin-vert--md"><div class="avatar__intro"></div></div></header><section class="markdown"><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="发布周期"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#发布周期" title="Direct link to heading">#</a>发布周期</h2><ul><li>修订（patch）版本号：每两周会进行日常的 bugfix 更新。（如果有紧急的 bugfix，再需求及方案评估通过后，则可按需发布）。</li><li>次（minor）版本号：每月发布一个带有新特性的向下兼容的版本。</li><li>主（major）版本号：含有破坏性更新和新特性，不在发布周期内。</li><li>每个发布周期的下一周发布 stable 版本。</li><li>每个发版周期的上一个周五可以先发布一个 patch/beta 版本进行测试。</li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="版本号规则"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#版本号规则" title="Direct link to heading">#</a>版本号规则</h2><ul><li>版本号升级严格遵循 <a href="https://semver.org/">Semantic Versioning 2.0.0</a> 语义化版本规范。</li><li>bugfix 升级小版本，新功能添加升级中间的版本号。</li><li>每两周发布一个 stable 版本。</li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="代码合并规则"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#代码合并规则" title="Direct link to heading">#</a>代码合并规则</h2><ul><li>开发时新建新的单独分支 featrue（或其他名称）。</li><li>及时对开发提交的 PR 进行 CodeReview 和合并操作。</li><li>安排至少两人对 PR 代码进行 Review，确认通过后进行代码合并。</li><li>及时关闭已解决或无法解决的 Issue。</li><li>按时进行新版本发布。</li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="发布流程"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#发布流程" title="Direct link to heading">#</a>发布流程</h2><ol><li>发布前相关工作</li></ol><ul><li>确认发版 List 中的 issue 和 PR 是否已被处理和合并。</li><li>确认是无误的跑完所有测试用例。</li><li>确认是否对更改的内容进行了基本的人工检查。</li><li>确认允许自动升级小版本的第三方依赖库是否能够正常使用（是否有 Breaking Change）。</li></ul><ol start="2"><li>更新日志及升级版本</li></ol><ul><li>发布版本时，先把 featrue 分支手工合并到 master。注意不要使用 splash merge 防止提交信息丢失。</li><li>从 master 新建一个 release 分支用来做发布的修改。（Changelog，Version 等修改）</li><li>在 CHANGELOG.md 文件中添加发布日志，可以用 compare 功能当前版本和之前版本的区别，将有价值的改动如实反馈出来。</li><li>对用户使用上无感知的改动建议（文档修补、微小的样式优化、代码风格重构、添加 Demo、添加测试等）不用提及，保持 changelog 的内容有效性。</li><li>建议用易于理解的语言描述用户可以感知的变化。（如：Table 新增 onClick 属性，可自定义表格点击事件）</li><li>尽量在修复描述修改内容后，展示出原始的 Issue 和 PR 链接地址，并注明修改人员。</li><li>如果是更新底层依赖模块的升级，给出相关更新内容链接。（如：升级 antd 需给出 antd 的 changelog 的链接）</li><li>参考之前版本的日志写法，必要时截图说明功能。（如：日志图标，<a href="https://github.com/liuchengxu/git-commit-emoji-cn">日志图标参考 1</a>，<a href="https://gitmoji.carloscuesta.me/">日志图标参考 2</a>）</li><li>push release 分支并发起 changelog 的 PR 请其他同学 review。（PR 的内容里填上 changelog 内容）</li></ul><ol start="3"><li>npm 发布
+<nav class="navbar navbar--light navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a aria-current="page" class="navbar__brand active" href="/"><strong class="navbar__title">Kenve&#x27;s Blog</strong></a></div><div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/docs/interview/introduction">前端面试</a><a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve" class="navbar__item navbar__link">GitHub</a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_1gtM"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_keGJ moon_1gwN"></span></div><div class="react-toggle-track-x"><span class="toggle_keGJ sun_3CPA"></span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div><div class="navbar__search"><span aria-label="expand searchbar" role="button" class="search-icon" tabindex="0"></span><input type="search" id="search_input_react" placeholder="Search" aria-label="Search" class="navbar__search-input search-bar"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a aria-current="page" class="navbar__brand active" href="/"><strong class="navbar__title">Kenve&#x27;s Blog</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" href="/docs/interview/introduction">前端面试</a></li><li class="menu__list-item"><a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve" class="menu__link">GitHub</a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="container margin-vert--xl"><div class="row"><div class="col col--8 col--offset-2"><article><header><h1 class="margin-bottom--sm blogPostTitle_2RZH">发版规则</h1><div class="margin-vert--md"><time datetime="2018-09-13T00:00:00.000Z" class="blogPostDate_3tRe">September 13, 2018</time></div><div class="avatar margin-vert--md"><div class="avatar__intro"></div></div></header><section class="markdown"><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="发布周期"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#发布周期" title="Direct link to heading">#</a>发布周期</h2><ul><li>修订（patch）版本号：每两周会进行日常的 bugfix 更新。（如果有紧急的 bugfix，再需求及方案评估通过后，则可按需发布）。</li><li>次（minor）版本号：每月发布一个带有新特性的向下兼容的版本。</li><li>主（major）版本号：含有破坏性更新和新特性，不在发布周期内。</li><li>每个发布周期的下一周发布 stable 版本。</li><li>每个发版周期的上一个周五可以先发布一个 patch/beta 版本进行测试。</li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="版本号规则"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#版本号规则" title="Direct link to heading">#</a>版本号规则</h2><ul><li>版本号升级严格遵循 <a href="https://semver.org/">Semantic Versioning 2.0.0</a> 语义化版本规范。</li><li>bugfix 升级小版本，新功能添加升级中间的版本号。</li><li>每两周发布一个 stable 版本。</li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="代码合并规则"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#代码合并规则" title="Direct link to heading">#</a>代码合并规则</h2><ul><li>开发时新建新的单独分支 featrue（或其他名称）。</li><li>及时对开发提交的 PR 进行 CodeReview 和合并操作。</li><li>安排至少两人对 PR 代码进行 Review，确认通过后进行代码合并。</li><li>及时关闭已解决或无法解决的 Issue。</li><li>按时进行新版本发布。</li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="发布流程"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#发布流程" title="Direct link to heading">#</a>发布流程</h2><ol><li>发布前相关工作</li></ol><ul><li>确认发版 List 中的 issue 和 PR 是否已被处理和合并。</li><li>确认是无误的跑完所有测试用例。</li><li>确认是否对更改的内容进行了基本的人工检查。</li><li>确认允许自动升级小版本的第三方依赖库是否能够正常使用（是否有 Breaking Change）。</li></ul><ol start="2"><li>更新日志及升级版本</li></ol><ul><li>发布版本时，先把 featrue 分支手工合并到 master。注意不要使用 splash merge 防止提交信息丢失。</li><li>从 master 新建一个 release 分支用来做发布的修改。（Changelog，Version 等修改）</li><li>在 CHANGELOG.md 文件中添加发布日志，可以用 compare 功能当前版本和之前版本的区别，将有价值的改动如实反馈出来。</li><li>对用户使用上无感知的改动建议（文档修补、微小的样式优化、代码风格重构、添加 Demo、添加测试等）不用提及，保持 changelog 的内容有效性。</li><li>建议用易于理解的语言描述用户可以感知的变化。（如：Table 新增 onClick 属性，可自定义表格点击事件）</li><li>尽量在修复描述修改内容后，展示出原始的 Issue 和 PR 链接地址，并注明修改人员。</li><li>如果是更新底层依赖模块的升级，给出相关更新内容链接。（如：升级 antd 需给出 antd 的 changelog 的链接）</li><li>参考之前版本的日志写法，必要时截图说明功能。（如：日志图标，<a href="https://github.com/liuchengxu/git-commit-emoji-cn">日志图标参考 1</a>，<a href="https://gitmoji.carloscuesta.me/">日志图标参考 2</a>）</li><li>push release 分支并发起 changelog 的 PR 请其他同学 review。（PR 的内容里填上 changelog 内容）</li></ul><ol start="3"><li>npm 发布
 更新日志修改合并后，删除 release 分支。接下来就可以正式发布到私服了。</li></ol><ul><li>发布前可以先在根目录，执行编译命令，确认编译顺利通过。</li><li>确认已按照<a href="https://semver.org/lang/zh-CN/">语义化版本</a>修改版本号。</li><li>在根目录执行发布命令。</li><li>确认私服有新发布的版本。</li></ul><ol start="4"><li>更新其他版本分支
 如果有其他分支需求合并 master 新的更改，应及时合并最新的更改。</li></ol><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="资料"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#资料" title="Direct link to heading">#</a>资料</h3><ul><li><a href="https://github.com/ant-design/ant-design/wiki/%E8%BD%AE%E5%80%BC%E8%A7%84%E5%88%99%E5%92%8C%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B">antd wiki</a></li></ul></section><footer class="row margin-vert--lg"><div class="col"><strong>Tags:</strong><a class="margin-horiz--sm" href="/tags/npm">npm</a><a class="margin-horiz--sm" href="/tags/publish">publish</a></div></footer></article><div class="margin-vert--xl"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/transform-causes-exception"><div class="pagination-nav__link--sublabel">Previous Post</div><div class="pagination-nav__link--label">« transform 导致 css 定位异常</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/write-a-webpack-plugin"><div class="pagination-nav__link--sublabel">Next Post</div><div class="pagination-nav__link--label">写一个 Webpack 的插件 »</div></a></div></nav></div></div></div></div></div><footer class="footer footer--dark"><div class="container"><div class="text--center"><div>Copyright © 2020 kenve. Built with Docusaurus.</div></div></div></footer>
 </div>
 
-<script src="/styles.14b434b9.js"></script>
+<script src="/styles.d3ba4e78.js"></script>
 
-<script src="/runtime~main.4edb14ff.js"></script>
+<script src="/runtime~main.84f694ab.js"></script>
 
-<script src="/main.9b520a85.js"></script>
+<script src="/main.7288979f.js"></script>
 
-<script src="/1.374bedff.js"></script>
+<script src="/1.30cc38a8.js"></script>
 
-<script src="/2.5028d0db.js"></script>
+<script src="/2.4d13094b.js"></script>
 
-<script src="/3.c42ea025.js"></script>
+<script src="/3.8d84e0a3.js"></script>
 
-<script src="/ccc49370.ca6195ca.js"></script>
+<script src="/ccc49370.a44525fe.js"></script>
 
-<script src="/7e066e01.c77ab2dd.js"></script>
+<script src="/7e066e01.5152e171.js"></script>
 
 
 </body>
