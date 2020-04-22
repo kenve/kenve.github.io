@@ -25,7 +25,12 @@ module.exports = {
         {
           to: 'docs/interview/introduction',
           activeBasePath: 'interview',
-          label: '前端面试',
+          label: '进阶 & 面试',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/kenve/leetcode',
+          label: 'LeetCode 题解',
           position: 'right',
         },
         {
