@@ -15,9 +15,8 @@ module.exports = {
     },
     sidebarCollapsible: false,
     algolia: {
-      appId: '6CQ6YKM30R',
-      apiKey: 'f0aabab58cfbfc636e7127eee7542206',
-      indexName: 'kenve-github-io',
+      apiKey: '7141d77dc6dacb0119d037bc03ec91df',
+      indexName: 'kenve',
     },
     navbar: {
       title: "Kenve's Blog",
