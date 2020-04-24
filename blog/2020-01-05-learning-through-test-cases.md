@@ -28,7 +28,7 @@ yarn add react react-dom
 yarn add --dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer
 ```
 
-- 安装 `testing-libraray` 依赖
+- 安装 `testing-libraray` 依赖，选择 `@testing-library/react-hooks` 或 `@testing-library/react` 包
 
 ```bash
 yarn add --dev @testing-library/react
