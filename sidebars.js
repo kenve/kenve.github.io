@@ -11,7 +11,8 @@ module.exports = {
       'interview/data-structure/queue',
       'interview/data-structure/deque',
       'interview/data-structure/linked-list',
-      'interview/data-structure/set'
+      'interview/data-structure/set',
+      'interview/data-structure/dictionary-and-hashtable',
     ],
     算法: ['interview/algorithms/euclidean'],
   },
