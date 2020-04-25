@@ -273,3 +273,61 @@ function format(str) {
   str.replace(/(\d)(?=(?:\d{3})+$)/g, '$1,'); // replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 }
 ```
+
+## 实现两个大整数加法
+
+```js
+/**
+ * 大数相加
+ * @param {string} a
+ * @param {string} b
+ */
+function add(a, b) {
+  // 最后一个元素下标
+  let i = a.length - 1;
+  let j = b.length - 1;
+
+  // 进位
+  let carry = 0;
+  let result = '';
+
+  while (i >= 0 || j >= 0) {
+    // 第一个数
+    let x = 0;
+    // 第二个数
+    let y = 0;
+    // 和
+    let sum;
+    // 大于等于 0，取出数字
+    if (i >= 0) {
+      // 从后往前取出数字
+      x = a[i] - '0';
+      i--;
+    }
+
+    if (j >= 0) {
+      y = b[j] - '0';
+      j--;
+    }
+    // 计算两个数字的和，再加上进位
+    sum = x + y + carry;
+    // 如果和大于 10 需要进 1 位
+    if (sum >= 10) {
+      carry = 1;
+      sum -= 10;
+    } else {
+      // 否则进位为 0
+      carry = 0;
+    }
+    // 字符串累加
+    result = sum + result;
+  }
+  // 如果还有进位
+  if (carry) {
+    // 进位 1 + 'xxx'
+    result = carry + result;
+  }
+  return result;
+}
+// console.log(add('9999', '1'))
+```
