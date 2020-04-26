@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="generator" content="Docusaurus v2.0.0-alpha.50">
-
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164590421-1"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-164590421-1",{})</script>
 
 <title data-react-helmet="true">集合 Set | Kenve&#x27;s Blog</title>
 
@@ -16,25 +19,25 @@
 <link rel="stylesheet" href="/styles.e74d84e8.css">
 
 
-<link rel="preload" href="/styles.b8454123.js" as="script">
+<link rel="preload" href="/styles.33e983d5.js" as="script">
 
-<link rel="preload" href="/runtime~main.9960a7b6.js" as="script">
+<link rel="preload" href="/runtime~main.6d5d6c01.js" as="script">
 
-<link rel="preload" href="/main.97661f87.js" as="script">
+<link rel="preload" href="/main.365d9526.js" as="script">
 
-<link rel="preload" href="/1.5af366ae.js" as="script">
+<link rel="preload" href="/1.c9290841.js" as="script">
 
-<link rel="preload" href="/2.8a30ea25.js" as="script">
+<link rel="preload" href="/2.41d14bfa.js" as="script">
 
-<link rel="preload" href="/3.7da0c4d2.js" as="script">
+<link rel="preload" href="/3.8b8b510c.js" as="script">
 
-<link rel="preload" href="/1be78505.c96061ff.js" as="script">
+<link rel="preload" href="/1be78505.9b3bf15f.js" as="script">
 
-<link rel="preload" href="/20ac7829.2743a7fc.js" as="script">
+<link rel="preload" href="/20ac7829.0fab8085.js" as="script">
 
-<link rel="preload" href="/17896441.85c8e81f.js" as="script">
+<link rel="preload" href="/17896441.ee7873c7.js" as="script">
 
-<link rel="preload" href="/ffafdf6d.95a79df4.js" as="script">
+<link rel="preload" href="/ffafdf6d.a73ac11d.js" as="script">
 
 </head>
 <body>
@@ -81,25 +84,25 @@
 </span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token console class-name" style="color:rgb(255, 203, 107)">console</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token method function property-access" style="color:rgb(130, 170, 255)">log</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token function" style="color:rgb(130, 170, 255)">difference</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">setA</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> setB</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span></div></div></div></div></div><p><strong>4. ES6 的扩展运算符方式实现并集、交集和差集</strong></p><p>步骤为：(1) 将集合转化为数组; (2) 执行需要的运算; (3) 将结果转化回集合。</p><div class="mdxCodeBlock_iHAB"><div class="codeBlockContent_32p_"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1BYj">Copy</button><div tabindex="0" class="prism-code language-js codeBlock_19pQ"><div class="codeBlockLines_2n9r" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// 并集</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">const</span><span class="token plain"> </span><span class="token function-variable function" style="color:rgb(130, 170, 255)">union</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token parameter">setA</span><span class="token parameter punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token parameter"> setB</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:rgb(137, 221, 255)">=&gt;</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">new</span><span class="token plain"> </span><span class="token class-name" style="color:rgb(255, 203, 107)">Set</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token spread operator" style="color:rgb(137, 221, 255)">...</span><span class="token plain">setA</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> </span><span class="token spread operator" style="color:rgb(137, 221, 255)">...</span><span class="token plain">setB</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// 交集</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">const</span><span class="token plain"> </span><span class="token function-variable function" style="color:rgb(130, 170, 255)">intersection</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token parameter">setA</span><span class="token parameter punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token parameter"> setB</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:rgb(137, 221, 255)">=&gt;</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">new</span><span class="token plain"> </span><span class="token class-name" style="color:rgb(255, 203, 107)">Set</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token spread operator" style="color:rgb(137, 221, 255)">...</span><span class="token plain">setA</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token method function property-access" style="color:rgb(130, 170, 255)">filter</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token parameter">x</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:rgb(137, 221, 255)">=&gt;</span><span class="token plain"> setB</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token method function property-access" style="color:rgb(130, 170, 255)">has</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">x</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// 差集</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">const</span><span class="token plain"> </span><span class="token function-variable function" style="color:rgb(130, 170, 255)">difference</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token parameter">setA</span><span class="token parameter punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token parameter"> setB</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:rgb(137, 221, 255)">=&gt;</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">new</span><span class="token plain"> </span><span class="token class-name" style="color:rgb(255, 203, 107)">Set</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token spread operator" style="color:rgb(137, 221, 255)">...</span><span class="token plain">setA</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token method function property-access" style="color:rgb(130, 170, 255)">filter</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token parameter">x</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:rgb(137, 221, 255)">=&gt;</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">!</span><span class="token plain">setB</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token method function property-access" style="color:rgb(130, 170, 255)">has</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">x</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span></div></div></div></div></div><div class="admonition admonition-info alert alert--info"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</h5></div><div class="admonition-content"><p>广义的集合种类包括列表，集，多重集，树和图。枚举类型可以是列表或集。这里主要讲的是集（即<a href="https://zh.wikipedia.org/wiki/%E9%9B%86%E5%90%88_(%E6%95%B0%E5%AD%A6)">数学里的集合</a>），而非广义的<a href="https://zh.wikipedia.org/wiki/%E9%9B%86%E5%90%88_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6)">集合 (计算机科学)</a>。</p></div></div></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/kenve/kenve.github.io/edit/docusaurus/docs/interview/data-structure/set.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/interview/data-structure/linked-list"><div class="pagination-nav__link--sublabel">Previous</div><div class="pagination-nav__link--label">« 链表 LinkedList</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/interview/data-structure/dictionary-and-hashtable"><div class="pagination-nav__link--sublabel">Next</div><div class="pagination-nav__link--label">字典和散列表 »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#实现集合类" class="contents__link">实现集合类</a><ul><li><a href="#测试-set-类" class="contents__link">测试 Set 类</a></li></ul></li><li><a href="#集合运算" class="contents__link">集合运算</a><ul><li><a href="#并集" class="contents__link">并集</a></li><li><a href="#交集" class="contents__link">交集</a></li><li><a href="#差集" class="contents__link">差集</a></li><li><a href="#子集" class="contents__link">子集</a></li></ul></li><li><a href="#set-类的完整代码" class="contents__link">Set 类的完整代码</a></li><li><a href="#es6-中的-set-类" class="contents__link">ES6 中的 Set 类</a><ul><li><a href="#es6-set-类的运算" class="contents__link">ES6 Set 类的运算</a></li></ul></li></ul></div></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="text--center"><div>Copyright © 2020 kenve. Built with Docusaurus.</div></div></div></footer>
 </div>
 
-<script src="/styles.b8454123.js"></script>
+<script src="/styles.33e983d5.js"></script>
 
-<script src="/runtime~main.9960a7b6.js"></script>
+<script src="/runtime~main.6d5d6c01.js"></script>
 
-<script src="/main.97661f87.js"></script>
+<script src="/main.365d9526.js"></script>
 
-<script src="/1.5af366ae.js"></script>
+<script src="/1.c9290841.js"></script>
 
-<script src="/2.8a30ea25.js"></script>
+<script src="/2.41d14bfa.js"></script>
 
-<script src="/3.7da0c4d2.js"></script>
+<script src="/3.8b8b510c.js"></script>
 
-<script src="/1be78505.c96061ff.js"></script>
+<script src="/1be78505.9b3bf15f.js"></script>
 
-<script src="/20ac7829.2743a7fc.js"></script>
+<script src="/20ac7829.0fab8085.js"></script>
 
-<script src="/17896441.85c8e81f.js"></script>
+<script src="/17896441.ee7873c7.js"></script>
 
-<script src="/ffafdf6d.95a79df4.js"></script>
+<script src="/ffafdf6d.a73ac11d.js"></script>
 
 
 </body>
