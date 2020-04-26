@@ -18,6 +18,9 @@ module.exports = {
       apiKey: '7141d77dc6dacb0119d037bc03ec91df',
       indexName: 'kenve',
     },
+    gtag: {
+      trackingID: 'UA-164590421-1',
+    },
     navbar: {
       title: "Kenve's Blog",
       links: [
