@@ -17,6 +17,7 @@ module.exports = {
       'interview/data-structure/linked-list',
       'interview/data-structure/set',
       'interview/data-structure/dictionary-and-hashtable',
+      'interview/data-structure/tree',
     ],
     算法: ['interview/algorithms/euclidean', 'interview/algorithms/recursion'],
   },
