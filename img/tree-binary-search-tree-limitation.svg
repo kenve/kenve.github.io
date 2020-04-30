@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="419 1053 958 709" width="958" height="709">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="18" panose-1="2 11 6 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Medium"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.11.5 
+    <dc:date>2020-04-28 15:52:11 +0000</dc:date>
+  </metadata>
+  <g id="tree-binary-search-tree-weak" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1" stroke-opacity="1">
+    <title>tree-binary-search-tree-weak</title>
+    <rect fill="white" x="419" y="1053" width="958" height="709"/>
+    <g id="tree-binary-search-tree-weak: 图层 1">
+      <title>图层 1</title>
+      <g id="Graphic_68">
+        <rect x="419.52756" y="1053.0709" width="956.6929" height="708.6614" fill="#eaf3f5"/>
+      </g>
+      <g id="Graphic_67">
+        <circle cx="823.0709" cy="1105.1142" r="25.0000399475474" fill="#4c4c4c"/>
+        <circle cx="823.0709" cy="1105.1142" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(808.0709 1093.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">11</tspan>
+        </text>
+      </g>
+      <g id="Graphic_66">
+        <circle cx="619.0709" cy="1210.1142" r="25.0000399475474" fill="#f8a05d"/>
+        <circle cx="619.0709" cy="1210.1142" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(604.0709 1198.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="9.996" y="18">7</tspan>
+        </text>
+      </g>
+      <g id="Graphic_65">
+        <circle cx="1018.0709" cy="1210.1142" r="25.0000399475474" fill="#f8a05d"/>
+        <circle cx="1018.0709" cy="1210.1142" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(1003.0709 1198.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">15</tspan>
+        </text>
+      </g>
+      <g id="Graphic_64">
+        <circle cx="523.5709" cy="1328.1142" r="25.0000399475475" fill="#f8a05d"/>
+        <circle cx="523.5709" cy="1328.1142" r="25.0000399475475" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(508.5709 1316.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="9.996" y="18">5</tspan>
+        </text>
+      </g>
+      <g id="Graphic_63">
+        <circle cx="721.8209" cy="1328.1142" r="25.0000399475474" fill="#f8a05d"/>
+        <circle cx="721.8209" cy="1328.1142" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(706.8209 1316.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="9.996" y="18">9</tspan>
+        </text>
+      </g>
+      <g id="Graphic_62">
+        <circle cx="920.0709" cy="1328.1142" r="25.0000399475474" fill="#f8a05d"/>
+        <circle cx="920.0709" cy="1328.1142" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(905.0709 1316.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">13</tspan>
+        </text>
+      </g>
+      <g id="Graphic_61">
+        <circle cx="1118.3209" cy="1328.1142" r="25.0000399475474" fill="#f8a05d"/>
+        <circle cx="1118.3209" cy="1328.1142" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(1103.3209 1316.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">20</tspan>
+        </text>
+      </g>
+      <g id="Graphic_60">
+        <circle cx="474.5709" cy="1427.1142" r="25.0000399475475" fill="#00a252"/>
+        <path d="M 492.2485 1409.4365 C 502.0117 1419.1996 502.0117 1435.0287 492.2485 1444.7918 C 482.4854 1454.555 466.6563 1454.555 456.8932 1444.7918 C 447.1301 1435.0287 447.1301 1419.1996 456.8932 1409.4365 C 466.6563 1399.6734 482.4854 1399.6734 492.2485 1409.4365" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        <text transform="translate(459.5709 1415.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="9.996" y="18">3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_59">
+        <circle cx="673.5709" cy="1427.1142" r="25.0000399475474" fill="#00a252"/>
+        <path d="M 691.2485 1409.4365 C 701.0117 1419.1996 701.0117 1435.0287 691.2485 1444.7918 C 681.4854 1454.555 665.6563 1454.555 655.8932 1444.7918 C 646.1301 1435.0287 646.1301 1419.1996 655.8932 1409.4365 C 665.6563 1399.6734 681.4854 1399.6734 691.2485 1409.4365" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        <text transform="translate(658.5709 1415.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="9.996" y="18">8</tspan>
+        </text>
+      </g>
+      <g id="Graphic_58">
+        <circle cx="773.0709" cy="1427.1142" r="25.0000399475474" fill="#00a252"/>
+        <path d="M 790.7485 1409.4365 C 800.5117 1419.1996 800.5117 1435.0287 790.7485 1444.7918 C 780.9854 1454.555 765.1563 1454.555 755.3932 1444.7918 C 745.6301 1435.0287 745.6301 1419.1996 755.3932 1409.4365 C 765.1563 1399.6734 780.9854 1399.6734 790.7485 1409.4365" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        <text transform="translate(758.0709 1415.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">10</tspan>
+        </text>
+      </g>
+      <g id="Graphic_57">
+        <circle cx="872.5709" cy="1427.1142" r="25.0000399475474" fill="#00a252"/>
+        <path d="M 890.2485 1409.4365 C 900.0117 1419.1996 900.0117 1435.0287 890.2485 1444.7918 C 880.4854 1454.555 864.6563 1454.555 854.8932 1444.7918 C 845.1301 1435.0287 845.1301 1419.1996 854.8932 1409.4365 C 864.6563 1399.6734 880.4854 1399.6734 890.2485 1409.4365" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        <text transform="translate(857.5709 1415.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">12</tspan>
+        </text>
+      </g>
+      <g id="Graphic_56">
+        <circle cx="972.0709" cy="1427.1142" r="25.0000399475474" fill="#00a252"/>
+        <path d="M 989.7485 1409.4365 C 999.5117 1419.1996 999.5117 1435.0287 989.7485 1444.7918 C 979.9854 1454.555 964.1563 1454.555 954.3932 1444.7918 C 944.6301 1435.0287 944.6301 1419.1996 954.3932 1409.4365 C 964.1563 1399.6734 979.9854 1399.6734 989.7485 1409.4365" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        <text transform="translate(957.0709 1415.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">14</tspan>
+        </text>
+      </g>
+      <g id="Graphic_55">
+        <circle cx="1171.0709" cy="1427.1142" r="25.0000399475474" fill="#f8a05d"/>
+        <circle cx="1171.0709" cy="1427.1142" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(1156.0709 1415.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">25</tspan>
+        </text>
+      </g>
+      <g id="Graphic_54">
+        <circle cx="1071.5709" cy="1427.1142" r="25.0000399475474" fill="#00a252"/>
+        <path d="M 1089.2485 1409.4365 C 1099.0117 1419.1996 1099.0117 1435.0287 1089.2485 1444.7918 C 1079.4854 1454.555 1063.6563 1454.555 1053.8932 1444.7918 C 1044.1301 1435.0287 1044.1301 1419.1996 1053.8932 1409.4365 C 1063.6563 1399.6734 1079.4854 1399.6734 1089.2485 1409.4365" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        <text transform="translate(1056.5709 1415.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">18</tspan>
+        </text>
+      </g>
+      <g id="Line_53">
+        <line x1="799.9471" y1="1117.0161" x2="642.1946" y2="1198.2123" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_52">
+        <line x1="602.7129" y1="1230.3262" x2="539.9289" y2="1307.9022" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_51">
+        <line x1="512.03443" y1="1351.4225" x2="486.1073" y2="1403.8059" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_50">
+        <line x1="710.4269" y1="1351.4925" x2="684.96485" y2="1403.7359" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_49">
+        <line x1="636.14556" y1="1229.723" x2="704.7462" y2="1308.5053" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_48">
+        <line x1="733.777" y1="1351.21" x2="761.1147" y2="1404.0184" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_47">
+        <line x1="908.8207" y1="1351.562" x2="883.8211" y2="1403.6663" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_46">
+        <line x1="932.1643" y1="1351.1383" x2="959.9774" y2="1404.0901" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_45">
+        <line x1="1001.4584" y1="1230.117" x2="936.6834" y2="1308.1114" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_44">
+        <line x1="1034.9057" y1="1229.9298" x2="1101.486" y2="1308.2986" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_43">
+        <line x1="1107.2157" y1="1351.631" x2="1082.676" y2="1403.5973" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_42">
+        <line x1="1130.5504" y1="1351.0662" x2="1158.8414" y2="1404.1621" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_41">
+        <line x1="845.9691" y1="1117.444" x2="995.1726" y2="1197.7843" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_70">
+        <circle cx="574.0709" cy="1427.1142" r="25.0000399475474" fill="#00a252"/>
+        <path d="M 591.7485 1409.4365 C 601.5117 1419.1996 601.5117 1435.0287 591.7485 1444.7918 C 581.9854 1454.555 566.1563 1454.555 556.3932 1444.7918 C 546.6301 1435.0287 546.6301 1419.1996 556.3932 1409.4365 C 566.1563 1399.6734 581.9854 1399.6734 591.7485 1409.4365" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        <text transform="translate(559.0709 1415.8531)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="9.996" y="18">6</tspan>
+        </text>
+      </g>
+      <g id="Line_69">
+        <line x1="535.3884" y1="1351.2812" x2="562.25336" y2="1403.9472" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_72">
+        <circle cx="1222.0413" cy="1520.5748" r="25.0000399475474" fill="#f8a05d"/>
+        <circle cx="1222.0413" cy="1520.5748" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(1207.0413 1509.3138)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">27</tspan>
+        </text>
+      </g>
+      <g id="Line_71">
+        <line x1="1183.5228" y1="1449.9462" x2="1209.5895" y2="1497.7428" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_74">
+        <circle cx="1272.0413" cy="1613.5748" r="25.0000399475474" fill="#f8a05d"/>
+        <circle cx="1272.0413" cy="1613.5748" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(1257.0413 1602.3138)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">30</tspan>
+        </text>
+      </g>
+      <g id="Line_73">
+        <line x1="1234.3565" y1="1543.481" x2="1259.7262" y2="1590.6686" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_76">
+        <circle cx="1322.0413" cy="1706.5748" r="25.0000399475474" fill="#00a252"/>
+        <path d="M 1339.719 1688.8972 C 1349.4821 1698.6603 1349.4821 1714.4894 1339.719 1724.2525 C 1329.9559 1734.0156 1314.1268 1734.0156 1304.3637 1724.2525 C 1294.6005 1714.4894 1294.6005 1698.6603 1304.3637 1688.8972 C 1314.1268 1679.134 1329.9559 1679.134 1339.719 1688.8972" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8.0,8.0" stroke-width="2"/>
+        <text transform="translate(1307.0413 1695.3138)" fill="white">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="500" fill="white" x="4.992" y="18">46</tspan>
+        </text>
+      </g>
+      <g id="Line_75">
+        <line x1="1284.3565" y1="1636.481" x2="1309.7262" y2="1683.6686" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
