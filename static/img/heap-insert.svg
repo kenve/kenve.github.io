@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" viewBox="593 1782 450 328" width="450" height="328">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="18" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="PingFang SC" font-size="16" panose-1="2 11 4 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-150" underline-thickness="58" slope="0" x-height="600" cap-height="860" ascent="1060.0021" descent="-340.0007" font-weight="400">
+      <font-face-src>
+        <font-face-name name="PingFangSC-Regular"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.11.5 
+    <dc:date>2020-05-01 10:10:08 +0000</dc:date>
+  </metadata>
+  <g id="heap-insert" fill-opacity="1" stroke-opacity="1" fill="none" stroke-dasharray="none" stroke="none">
+    <title>heap-insert</title>
+    <rect fill="white" x="593" y="1782" width="450" height="328"/>
+    <g id="heap-insert: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_91">
+        <rect x="593.5" y="1782" width="449" height="327.5" fill="#eff5f7"/>
+      </g>
+      <g id="Graphic_103">
+        <circle cx="832.9528" cy="1850" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(817.9528 1838.739)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="9.996" y="18">2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_101">
+        <circle cx="936" cy="1940.5" r="25.0000399475475" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(921 1929.239)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="9.996" y="18">4</tspan>
+        </text>
+      </g>
+      <g id="Line_100">
+        <line x1="852.4891" y1="1867.1575" x2="916.4637" y2="1923.3425" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_97">
+        <circle cx="740" cy="1940.5" r="25.0000399475475" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(725 1929.239)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="9.996" y="18">3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_96">
+        <circle cx="680.5" cy="2044.5" r="25.0000399475473" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(665.5 2033.239)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="9.996" y="18">5</tspan>
+        </text>
+      </g>
+      <g id="Line_95">
+        <line x1="727.0855" y1="1963.0733" x2="693.4145" y2="2021.9267" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_92">
+        <line x1="814.3238" y1="1868.1374" x2="758.6289" y2="1922.3626" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_145">
+        <text transform="translate(865.0236 1839)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="15.2" y="17">0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_146">
+        <text transform="translate(770 1929.5)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="16.792" y="17">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_147">
+        <text transform="translate(966 1929.5)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="15.2" y="17">2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_197">
+        <text transform="translate(710.5 2033.5)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="15.2" y="17">3</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
