@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-271 -122 405 323" width="405" height="323">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="black">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="18" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.11.5 
+    <dc:date>2020-05-03 15:11:46 +0000</dc:date>
+  </metadata>
+  <g id="graph-dfs-topological-sort" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-dasharray="none">
+    <title>graph-dfs-topological-sort</title>
+    <rect fill="white" x="-271" y="-122" width="405" height="323"/>
+    <g id="graph-dfs-topological-sort: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_72">
+        <rect x="-270.25" y="-121.5" width="403.5" height="322.5" fill="#eff5f7"/>
+      </g>
+      <g id="Line_71">
+        <line x1="-149.39984" y1="-36.218782" x2="-166.29772" y2="-3.146566" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_70">
+        <circle cx="-137.56692" cy="-59.37794" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(-152.56692 -70.639)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="8.835" y="18">A</tspan>
+        </text>
+      </g>
+      <g id="Graphic_69">
+        <circle cx="-184" cy="31.5" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(-199 20.238937)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="8.331" y="18">C</tspan>
+        </text>
+      </g>
+      <g id="Graphic_68">
+        <circle cx="-10" cy="-59.37794" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(-25 -70.639)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="8.664" y="18">B</tspan>
+        </text>
+      </g>
+      <g id="Graphic_66">
+        <circle cx="-68.5" cy="141.5" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(-83.5 130.23894)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="9.663" y="18">F</tspan>
+        </text>
+      </g>
+      <g id="Line_65">
+        <line x1="-50.352405" y1="122.88104" x2="19.848412" y2="50.856824" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_64">
+        <circle cx="47" cy="23" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(32 11.738937)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="9.168" y="18">E</tspan>
+        </text>
+      </g>
+      <g id="Line_61">
+        <line x1="4.7965916" y1="-37.993506" x2="24.863288" y2="-8.992574" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_77">
+        <circle cx="-68.5" cy="31.5" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(-83.5 20.238937)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="700" fill="black" x="8.331" y="18">D</tspan>
+        </text>
+      </g>
+      <g id="Line_78">
+        <line x1="-121.83295" y1="-38.67525" x2="-92.03953" y2=".52679936" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_95">
+        <line x1="-165.17232" y1="49.43112" x2="-96.66906" y2="114.67233" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_96">
+        <line x1="-24.075982" y1="-37.511337" x2="-47.44162" y2="-1.2135429" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
