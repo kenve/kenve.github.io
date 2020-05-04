@@ -21,6 +21,10 @@ module.exports = {
       'interview/data-structure/binary-heap',
       'interview/data-structure/graph',
     ],
-    算法: ['interview/algorithms/euclidean', 'interview/algorithms/recursion'],
+    算法: [
+      'interview/algorithms/euclidean',
+      'interview/algorithms/recursion',
+      'interview/algorithms/sorting',
+    ],
   },
 };
