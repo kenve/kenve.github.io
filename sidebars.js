@@ -25,6 +25,7 @@ module.exports = {
       'interview/algorithms/euclidean',
       'interview/algorithms/recursion',
       'interview/algorithms/sorting',
+      'interview/algorithms/search',
     ],
   },
 };

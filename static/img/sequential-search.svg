@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="75 -44 456 265" width="456" height="265">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="PingFang SC" font-size="16" panose-1="2 11 4 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-150" underline-thickness="58" slope="0" x-height="600" cap-height="860" ascent="1060.0021" descent="-340.0007" font-weight="400">
+      <font-face-src>
+        <font-face-name name="PingFangSC-Regular"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.11.5 
+    <dc:date>2020-05-05 06:29:19 +0000</dc:date>
+  </metadata>
+  <g id="sequential-search" fill="none" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-dasharray="none">
+    <title>sequential-search</title>
+    <rect fill="white" x="75" y="-44" width="456" height="265"/>
+    <g id="sequential-search: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_40">
+        <rect x="75.5" y="-44" width="455.5" height="265" fill="#e0f3f6"/>
+      </g>
+      <g id="Graphic_39">
+        <rect x="106" y="-15.25" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(111 -4.473999)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">5</tspan>
+        </text>
+      </g>
+      <g id="Graphic_38">
+        <rect x="146" y="-15.25" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(151 -4.473999)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">4</tspan>
+        </text>
+      </g>
+      <g id="Graphic_37">
+        <rect x="186" y="-15.25" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(191 -4.473999)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_36">
+        <rect x="226" y="-15.25" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(231 -4.473999)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_35">
+        <rect x="266" y="-15.25" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(271 -4.473999)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_34">
+        <rect x="106" y="40.25" width="40" height="40" fill="#00a252"/>
+        <rect x="106" y="40.25" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(111 51.026)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">5</tspan>
+        </text>
+      </g>
+      <g id="Graphic_33">
+        <rect x="146" y="40.25" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(151 51.026)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">4</tspan>
+        </text>
+      </g>
+      <g id="Graphic_32">
+        <rect x="186" y="40.25" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(191 51.026)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_31">
+        <rect x="226" y="40.25" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(231 51.026)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_30">
+        <rect x="266" y="40.25" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(271 51.026)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_29">
+        <text transform="translate(323 49.25)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="0" y="17">5 === 3? 否，下一个！</tspan>
+        </text>
+      </g>
+      <g id="Graphic_41">
+        <text transform="translate(323 -6.25)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="0" y="17">查找数字 3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_47">
+        <rect x="106" y="95.75" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(111 106.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">5</tspan>
+        </text>
+      </g>
+      <g id="Graphic_46">
+        <rect x="146" y="95.75" width="40" height="40" fill="#00a252"/>
+        <rect x="146" y="95.75" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(151 106.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">4</tspan>
+        </text>
+      </g>
+      <g id="Graphic_45">
+        <rect x="186" y="95.75" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(191 106.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_44">
+        <rect x="226" y="95.75" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(231 106.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_43">
+        <rect x="266" y="95.75" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(271 106.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_42">
+        <text transform="translate(323 104.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="0" y="17">4 === 3? 否，下一个！</tspan>
+        </text>
+      </g>
+      <g id="Graphic_53">
+        <rect x="106" y="150.75" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(111 161.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">5</tspan>
+        </text>
+      </g>
+      <g id="Graphic_52">
+        <rect x="146" y="150.75" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(151 161.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">4</tspan>
+        </text>
+      </g>
+      <g id="Graphic_51">
+        <rect x="186" y="150.75" width="40" height="40" fill="#00a252"/>
+        <rect x="186" y="150.75" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(191 161.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">3</tspan>
+        </text>
+      </g>
+      <g id="Graphic_50">
+        <rect x="226" y="150.75" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(231 161.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">2</tspan>
+        </text>
+      </g>
+      <g id="Graphic_49">
+        <rect x="266" y="150.75" width="40" height="40" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text transform="translate(271 161.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10.552" y="15">1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_48">
+        <text transform="translate(323 159.75)" fill="black">
+          <tspan font-family="PingFang SC" font-size="16" font-weight="400" fill="black" x="0" y="17">3 === 3? 是的，找到了！</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
