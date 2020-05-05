@@ -26,6 +26,7 @@ module.exports = {
       'interview/algorithms/recursion',
       'interview/algorithms/sorting',
       'interview/algorithms/search',
+      'interview/algorithms/randomized',
     ],
   },
 };
