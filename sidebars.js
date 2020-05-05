@@ -27,6 +27,7 @@ module.exports = {
       'interview/algorithms/sorting',
       'interview/algorithms/search',
       'interview/algorithms/randomized',
+      'interview/algorithms/divide-and-conquer',
     ],
   },
 };
