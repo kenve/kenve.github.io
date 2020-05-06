@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="155 142 496 295" width="496" height="295">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.11.5 
+    <dc:date>2020-05-06 15:47:42 +0000</dc:date>
+  </metadata>
+  <g id="greedy-min-coin-change" stroke="none" fill="none" stroke-dasharray="none" fill-opacity="1" stroke-opacity="1">
+    <title>greedy-min-coin-change</title>
+    <rect fill="white" x="155" y="142" width="496" height="295"/>
+    <g id="greedy-min-coin-change: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_154">
+        <rect x="155" y="142" width="495.5" height="295" fill="#eaf3f5"/>
+      </g>
+      <g id="Graphic_187">
+        <text transform="translate(192 201.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="26.754" y="15">36 - 25 = 11</tspan>
+        </text>
+      </g>
+      <g id="Graphic_188">
+        <circle cx="402" cy="211" r="25.0000399475474" fill="#ccc"/>
+        <circle cx="402" cy="211" r="25.0000399475474" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(387 201.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="6.104" y="15">25</tspan>
+        </text>
+      </g>
+      <g id="Graphic_190">
+        <text transform="translate(192 277.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="31.202" y="15">11 - 10 = 1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_189">
+        <circle cx="402" cy="287" r="25.0000399475475" fill="#ccc"/>
+        <circle cx="402" cy="287" r="25.0000399475475" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(387 277.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="6.104" y="15">25</tspan>
+        </text>
+      </g>
+      <g id="Graphic_192">
+        <text transform="translate(192 353.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="40.098" y="15">1 - 1 = 0</tspan>
+        </text>
+      </g>
+      <g id="Graphic_191">
+        <circle cx="402" cy="363" r="25.0000399475475" fill="#ccc"/>
+        <circle cx="402" cy="363" r="25.0000399475475" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(387 353.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="6.104" y="15">25</tspan>
+        </text>
+      </g>
+      <g id="Graphic_193">
+        <circle cx="489" cy="289.5" r="22.5000359527927" fill="#ccc"/>
+        <circle cx="489" cy="289.5" r="22.5000359527927" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(476 280.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="4.104" y="15">10</tspan>
+        </text>
+      </g>
+      <g id="Graphic_194">
+        <circle cx="489" cy="363" r="22.5000359527927" fill="#ccc"/>
+        <circle cx="489" cy="363" r="22.5000359527927" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(476 353.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="4.104" y="15">10</tspan>
+        </text>
+      </g>
+      <g id="Graphic_195">
+        <circle cx="571" cy="363" r="20.0000319580379" fill="#ccc"/>
+        <circle cx="571" cy="363" r="20.0000319580379" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(560 353.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="6.552" y="15">1</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
