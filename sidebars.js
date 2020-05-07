@@ -30,6 +30,7 @@ module.exports = {
       'interview/algorithms/divide-and-conquer',
       'interview/algorithms/dp',
       'interview/algorithms/greedy',
+      'interview/algorithms/backtracking',
     ],
   },
 };
