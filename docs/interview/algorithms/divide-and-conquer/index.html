@@ -19,25 +19,25 @@
 <link rel="stylesheet" href="/styles.03b5ffc5.css">
 
 
-<link rel="preload" href="/styles.df339ee4.js" as="script">
+<link rel="preload" href="/styles.78d9c548.js" as="script">
 
-<link rel="preload" href="/runtime~main.f712e7f7.js" as="script">
+<link rel="preload" href="/runtime~main.78aa5f08.js" as="script">
 
-<link rel="preload" href="/main.63b70061.js" as="script">
+<link rel="preload" href="/main.92a10e5b.js" as="script">
 
-<link rel="preload" href="/1.39aa35e7.js" as="script">
+<link rel="preload" href="/1.28c13fab.js" as="script">
 
-<link rel="preload" href="/2.65f5b3bd.js" as="script">
+<link rel="preload" href="/2.255ba3bb.js" as="script">
 
-<link rel="preload" href="/3.59666868.js" as="script">
+<link rel="preload" href="/3.2975fda4.js" as="script">
 
-<link rel="preload" href="/1be78505.fa7c595d.js" as="script">
+<link rel="preload" href="/1be78505.214f4baa.js" as="script">
 
 <link rel="preload" href="/20ac7829.0ab18a80.js" as="script">
 
-<link rel="preload" href="/17896441.7f37df7f.js" as="script">
+<link rel="preload" href="/17896441.34d96393.js" as="script">
 
-<link rel="preload" href="/e2379985.8c0d5e82.js" as="script">
+<link rel="preload" href="/e2379985.94660098.js" as="script">
 
 </head>
 <body>
@@ -49,25 +49,25 @@
 </span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">/**</span></div><div class="token-line" style="color:#bfc7d5"><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic"> * 二分搜索</span></div><div class="token-line" style="color:#bfc7d5"><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic"> */</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token keyword" style="font-style:italic">function</span><span class="token plain"> </span><span class="token function" style="color:rgb(130, 170, 255)">binarySearch</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token parameter">array</span><span class="token parameter punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token parameter"> value</span><span class="token parameter punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token parameter"> compareFn </span><span class="token parameter operator" style="color:rgb(137, 221, 255)">=</span><span class="token parameter"> defaultCompare</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// 排序 array.sort();</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token keyword" style="font-style:italic">const</span><span class="token plain"> sortedArray </span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token plain"> </span><span class="token function" style="color:rgb(130, 170, 255)">quickSort</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">array</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token keyword" style="font-style:italic">const</span><span class="token plain"> low </span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">0</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token keyword" style="font-style:italic">const</span><span class="token plain"> high </span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token plain"> sortedArray</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token property-access">length</span><span class="token plain"> </span><span class="token operator" style="color:rgb(137, 221, 255)">-</span><span class="token plain"> </span><span class="token number" style="color:rgb(247, 140, 108)">1</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// 将 low 参数以 0 传递，将 high 参数以 sortedArray.length - 1 传递来在已排序的数组中进行搜索</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain">  </span><span class="token keyword" style="font-style:italic">return</span><span class="token plain"> </span><span class="token function" style="color:rgb(130, 170, 255)">binarySearchRecursive</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">array</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> value</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> low</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> high</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> compareFn</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><span class="token plain"></span></div><div class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span></div></div></div></div></div><p>下图展示了算法的过程：</p><p><img src="/img/binary-search-recursive.svg" alt="二分搜索动态规划"></p></div></article><div class="margin-vert--xl"><div class="row"><div class="col"><a href="https://github.com/kenve/kenve.github.io/edit/docusaurus/docs/interview/algorithms/divide-and-conquer.md" target="_blank" rel="noreferrer noopener"><svg fill="currentColor" height="1.2em" width="1.2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40" style="margin-right:0.3em;vertical-align:sub"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div></div></div><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/docs/interview/algorithms/randomized"><div class="pagination-nav__link--sublabel">Previous</div><div class="pagination-nav__link--label">« 随机算法</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/docs/interview/algorithms/dp"><div class="pagination-nav__link--sublabel">Next</div><div class="pagination-nav__link--label">动态规划 »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#二分搜索" class="contents__link">二分搜索</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="text--center"><div>Copyright © 2020 kenve. Built with Docusaurus.</div></div></div></footer>
 </div>
 
-<script src="/styles.df339ee4.js"></script>
+<script src="/styles.78d9c548.js"></script>
 
-<script src="/runtime~main.f712e7f7.js"></script>
+<script src="/runtime~main.78aa5f08.js"></script>
 
-<script src="/main.63b70061.js"></script>
+<script src="/main.92a10e5b.js"></script>
 
-<script src="/1.39aa35e7.js"></script>
+<script src="/1.28c13fab.js"></script>
 
-<script src="/2.65f5b3bd.js"></script>
+<script src="/2.255ba3bb.js"></script>
 
-<script src="/3.59666868.js"></script>
+<script src="/3.2975fda4.js"></script>
 
-<script src="/1be78505.fa7c595d.js"></script>
+<script src="/1be78505.214f4baa.js"></script>
 
 <script src="/20ac7829.0ab18a80.js"></script>
 
-<script src="/17896441.7f37df7f.js"></script>
+<script src="/17896441.34d96393.js"></script>
 
-<script src="/e2379985.8c0d5e82.js"></script>
+<script src="/e2379985.94660098.js"></script>
 
 
 </body>
