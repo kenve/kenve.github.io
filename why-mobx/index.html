@@ -19,21 +19,21 @@
 <link rel="stylesheet" href="/styles.03b5ffc5.css">
 
 
-<link rel="preload" href="/styles.78d9c548.js" as="script">
+<link rel="preload" href="/styles.95e14347.js" as="script">
 
-<link rel="preload" href="/runtime~main.78aa5f08.js" as="script">
+<link rel="preload" href="/runtime~main.3ef9f3a6.js" as="script">
 
-<link rel="preload" href="/main.92a10e5b.js" as="script">
+<link rel="preload" href="/main.1cf0da0c.js" as="script">
 
-<link rel="preload" href="/1.28c13fab.js" as="script">
+<link rel="preload" href="/1.7b1715f0.js" as="script">
 
-<link rel="preload" href="/2.255ba3bb.js" as="script">
+<link rel="preload" href="/2.40401294.js" as="script">
 
-<link rel="preload" href="/3.2975fda4.js" as="script">
+<link rel="preload" href="/3.7851e8bf.js" as="script">
 
-<link rel="preload" href="/ccc49370.4ad5d4cf.js" as="script">
+<link rel="preload" href="/ccc49370.3df1ed03.js" as="script">
 
-<link rel="preload" href="/f5ed9ffa.6a064663.js" as="script">
+<link rel="preload" href="/f5ed9ffa.cb2212d9.js" as="script">
 
 </head>
 <body>
@@ -42,21 +42,21 @@
 <nav class="navbar navbar--light navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><div aria-label="Navigation bar toggle" class="navbar__toggle" role="button" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></div><a class="navbar__brand" href="/"><strong class="navbar__title">Kenve&#x27;s Blog</strong></a></div><div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/docs/interview/introduction">进阶 &amp; 面试</a><a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve/leetcode" class="navbar__item navbar__link">LeetCode 题解</a><a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve" class="navbar__item navbar__link">GitHub</a><div class="react-toggle react-toggle--disabled displayOnlyInLargeViewport_1gtM"><div class="react-toggle-track"><div class="react-toggle-track-check"><span class="toggle_keGJ moon_1gwN"></span></div><div class="react-toggle-track-x"><span class="toggle_keGJ sun_3CPA"></span></div></div><div class="react-toggle-thumb"></div><input type="checkbox" disabled="" aria-label="Dark mode toggle" class="react-toggle-screenreader-only"></div><div class="navbar__search"><span aria-label="expand searchbar" role="button" class="search-icon" tabindex="0"></span><input type="search" id="search_input_react" placeholder="Search" aria-label="Search" class="navbar__search-input search-bar"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div><div class="navbar-sidebar"><div class="navbar-sidebar__brand"><a class="navbar__brand" href="/"><strong class="navbar__title">Kenve&#x27;s Blog</strong></a></div><div class="navbar-sidebar__items"><div class="menu"><ul class="menu__list"><li class="menu__list-item"><a class="menu__link" position="right" href="/docs/interview/introduction">进阶 &amp; 面试</a></li><li class="menu__list-item"><a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve/leetcode" class="menu__link" position="right">LeetCode 题解</a></li><li class="menu__list-item"><a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve" class="menu__link" position="right">GitHub</a></li></ul></div></div></div></nav><div class="main-wrapper"><div class="container margin-vert--lg"><div class="row"><div class="col col--8 col--offset-2"><article><header><h1 class="margin-bottom--sm blogPostTitle_2RZH">为什么选择 MobX 作为状态管理方案</h1><div class="margin-vert--md"><time datetime="2019-05-02T00:00:00.000Z" class="blogPostDate_3tRe">May 2, 2019  · 1 min read</time></div><div class="avatar margin-vert--md"><div class="avatar__intro"></div></div></header><section class="markdown"><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="前言"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#前言" title="Direct link to heading">#</a>前言</h2><p>当我们使用 React 开发 web 应用程序时，当项目越发复杂，我们发现仅仅使用 React 的 setState 方法已经无法适应如此复杂的状态管理了，程序状态变得比较难同步、操作，到处是回调、发布、订阅，这意味着我们需要更好的状态管理方式。于是就引入了状态管理库，如 Redux，MobX，Dva，Rematch 等。</p><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="mobx-vs-redux"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#mobx-vs-redux" title="Direct link to heading">#</a>MobX VS Redux</h2><p>目前来看，Redux 已是 React 应用状态管理库中的霸主了，而 MobX 则是一方诸侯，我们为什么要选择 MobX，而不是使用 Redux 呢。要回答这个问题，我们先来看一下我们实际的业务场景，毕竟选择任何一个状态管理库都是为了解决实际问题。</p><p>我们的业务场景特点：</p><ol><li>单页 SPA 架构，页面切换通过 history 路由来实现</li><li>多标签页，类似于浏览器的标签页，一个标签页就是一个菜单</li><li>基于约定式路由，每一个页面都是一个组件，每一个组件都可以独立工作，并不依赖其它组件</li><li>系统复杂，页面很多，但页面与页面之间基本上没有关系，也不存在数据共享的问题</li><li>系统按照不同模块拆分，不同人各负责一个或多个模块，每个人的技术能力、业务能力都有差别</li><li>没有数据缓存的需求，也即不支持浏览器的回退功能</li></ol><p>在选择 MobX 之前，我们也调研过 Redux，Redux 的数据流管理还是相对复杂些，它有个特点就是集中式的状态管理，类似于后台 MVC 的分层思想，按照约定的目录编写业务逻辑，由于是集中式的数据流管理，数据都维护在同一个地方，所以要做回退的功能就比较容易，在某些场景下（例如移动端场景），这个特性非常好。那回过头来看我们的业务场景，发现 Redux 并不能很好解决问题，主要有几点：</p><ol><li>每一个页面组件都是独立的，状态数据也是隔离的，而 Redux 是集中式的状态管理，不便于做数据隔离（虽然也是有办法的）</li><li>多标签页的场景下，在标签页之间切换时不能让页面组件重新渲染，Redux 是单一 store 模式，意味着每次切换都有重新加载页面数据，难度和风险比较大；</li><li>我们有些业务场景非常复杂，页面中的交互很多，每次改变数据如果都走 Redux 的数据流，会比较繁琐而且也不够简单。</li></ol><p>而 MobX 能相对很好的解决以上问题</p><ol><li>MobX 是多 store 模式，意味着每一个组件都可以拥有自己的 store,管理自己的数据，而不会影响到其它的组件。</li><li>在多标签页的模式下，每一个页面都是独立的，利用 MobX 可以很好地做到数据隔离</li><li>MobX 相对简单，特别是数据观察这一块，能够比较直观的反映数据的变化(有点像双向数据绑定），上手比较方便</li><li>组件的复用比较简单，当我们开发一个公共业务组件时，理想是一个无状态组件（SFC），但是现实是很难做到的，总会有一些副作用（例如接口调用）；如果交互比较复杂，还需要引入状态管理，MobX 是多 store 模式的，意味着业务组件内部完全可以有自己的状态管理，当组件复用时，不用关心组件的内部实现，而 Redux 是统一 store，要做到这一点比较难。</li></ol><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="mobx-vs-hooks"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#mobx-vs-hooks" title="Direct link to heading">#</a>MobX vs Hooks</h2><p>React16.8 新增的 Hooks，让 React 的状态管理多了一种选择，特别是在函数式编程越来越流行的今天，Hooks 也受到更多人的青睐，在一些简单场景下，甚至不用引入 Redux 或 MobX，单纯用 Hooks 就可以解决问题了，那么 Hooks 和 MobX 是不是只能二选一呢，答案肯定不是的，我认为 MobX 是 Hooks 的一种补充，如果交互比较简单，推荐 Hooks 就可以解决问题了，如果交互非常复杂，还是选择专业的状态管理库靠谱些（但并不代表 Hooks 不能用在复杂的场景中）。</p></section><footer class="row margin-vert--lg"><div class="col"><strong>Tags:</strong><a class="margin-horiz--sm" href="/tags/mob-x">MobX</a><a class="margin-horiz--sm" href="/tags/hooks">Hooks</a></div></footer></article><div></div><div class="margin-vert--xl"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/learning-through-test-cases"><div class="pagination-nav__link--sublabel">Previous Post</div><div class="pagination-nav__link--label">« 通过测试用例学习前端</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/transform-causes-exception"><div class="pagination-nav__link--sublabel">Next Post</div><div class="pagination-nav__link--label">transform 导致 css 定位异常 »</div></a></div></nav></div></div></div></div></div><footer class="footer footer--dark"><div class="container"><div class="text--center"><div>Copyright © 2020 kenve. Built with Docusaurus.</div></div></div></footer>
 </div>
 
-<script src="/styles.78d9c548.js"></script>
+<script src="/styles.95e14347.js"></script>
 
-<script src="/runtime~main.78aa5f08.js"></script>
+<script src="/runtime~main.3ef9f3a6.js"></script>
 
-<script src="/main.92a10e5b.js"></script>
+<script src="/main.1cf0da0c.js"></script>
 
-<script src="/1.28c13fab.js"></script>
+<script src="/1.7b1715f0.js"></script>
 
-<script src="/2.255ba3bb.js"></script>
+<script src="/2.40401294.js"></script>
 
-<script src="/3.2975fda4.js"></script>
+<script src="/3.7851e8bf.js"></script>
 
-<script src="/ccc49370.4ad5d4cf.js"></script>
+<script src="/ccc49370.3df1ed03.js"></script>
 
-<script src="/f5ed9ffa.6a064663.js"></script>
+<script src="/f5ed9ffa.cb2212d9.js"></script>
 
 
 </body>
