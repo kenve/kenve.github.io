@@ -31,6 +31,7 @@ module.exports = {
       'interview/algorithms/dp',
       'interview/algorithms/greedy',
       'interview/algorithms/backtracking',
+      'interview/algorithms/algorithmic-complexity',
     ],
   },
 };
