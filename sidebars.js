@@ -7,6 +7,7 @@ module.exports = {
     CSS: [],
     JavaScript: [
       'interview/js/null-and-undefined',
+      'interview/js/types-and-conversion',
       'interview/js/js-array',
       'interview/js/handwritten-code',
     ],

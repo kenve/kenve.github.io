@@ -5,7 +5,7 @@ title: null 和 undefined
 
 ## null
 
-值 `null` 特指对象的值未设置。它是 JavaScript [基本类型](type-conversion.md/)之一，在布尔运算中被认为是 [falsy](type-conversion.md/#Falsy) 值 (虚值)。
+值 `null` 特指对象的值未设置。它是 JavaScript [基本类型](./types-and-conversion.md#数据类型)之一，在布尔运算中被认为是 [falsy](./types-and-conversion.md#falsy) 值 (虚值)。
 
 值 `null` 是一个字面量，不像 `undefined`，它不是全局对象的一个属性。`null` 是表示缺少的标识，指示变量未指向任何对象。把 `null` 作为尚未创建的对象，也许更好理解。在 API 中，`null` 常在返回类型应是一个对象，但没有关联的值的地方使用。
 
