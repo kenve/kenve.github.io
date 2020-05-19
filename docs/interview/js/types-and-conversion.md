@@ -24,14 +24,14 @@ title: 数据类型与类型转换
 
 ```js
 typeof undefined; // "undefined"
-typeof '10'; // "String"
-typeof 10; // "Number"
-typeof false; // "Boolean"
-typeof Symbol(); // "Symbol"
+typeof '10'; // "string"
+typeof 10; // "number"
+typeof false; // "boolean"
+typeof Symbol(); // "symbol"
 typeof Function; // "function"
-typeof null; // "Object"
-typeof []; // "Object"
-typeof {}; // "Object"
+typeof null; // "object"
+typeof []; // "object"
+typeof {}; // "object"
 ```
 
 `instanceof` 来进行判断某个对象是不是另一个对象的实例。返回值的是一个布尔类型。`instanceof` 运算符用来测试一个对象在其原型链中是否存在一个构造函数的 `prototype` 属性。

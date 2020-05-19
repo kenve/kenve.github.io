@@ -3,7 +3,7 @@ id: queue
 title: 队列 Queue
 ---
 
-**队列**，又称为**伫列**（Queue），遵循**先进先出**（FIFO, First-In-First-Out）原则的[线性表](https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E8%A1%A8)。队列只允许在后端（称为 rear）进行插入操作，在前端（称为 front）进行删除操作。最新添加的元素必须排在队列的末尾。
+**队列**，又称为**伫列**（Queue），遵循**先进先出**（FIFO，First-In-First-Out）原则的[线性表](https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E8%A1%A8)。队列只允许在后端（称为 rear）进行插入操作，在前端（称为 front）进行删除操作。最新添加的元素必须排在队列的末尾。
 
 在现实中，最常见的队列的例子就是排队，排在第一位的人会先接受服务。在计算机中，一个常见的例子就是打印队列。
 
