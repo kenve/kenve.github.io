@@ -11,7 +11,8 @@ module.exports = {
       id: 'supportus',
       content:
         '<b>⭐️ Welcome to star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve/kenve.github.io">GitHub</a> ⭐️</b>',
-      textColor: '#fff',
+        backgroundColor: 'var(--ifm-color-primary)',
+        textColor: '#fff',
     },
     sidebarCollapsible: false,
     algolia: {
@@ -23,7 +24,7 @@ module.exports = {
     },
     navbar: {
       title: "Kenve's Blog",
-      links: [
+      items: [
         {
           to: 'docs/interview/introduction',
           activeBasePath: 'interview',

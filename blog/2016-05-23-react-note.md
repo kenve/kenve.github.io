@@ -1,5 +1,5 @@
 ---
-id: react-tutorial
+slug: react-tutorial
 title: React 学习笔记
 tags: [react]
 ---

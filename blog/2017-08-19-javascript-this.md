@@ -1,5 +1,5 @@
 ---
-id: javascript-this
+slug: javascript-this
 title: javascript 之 this 理解
 tags: [javascript, this]
 ---

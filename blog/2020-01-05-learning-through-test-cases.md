@@ -1,5 +1,5 @@
 ---
-id: learning-through-test-cases
+slug: learning-through-test-cases
 title: 通过测试用例学习前端
 tags: [前端测试, React, Hooks]
 ---

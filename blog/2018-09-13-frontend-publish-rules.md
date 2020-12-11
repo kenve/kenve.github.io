@@ -1,5 +1,5 @@
 ---
-id: package-publish-rules
+slug: package-publish-rules
 title: 发版规则
 tags: [npm, publish]
 ---

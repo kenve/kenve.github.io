@@ -1,5 +1,5 @@
 ---
-id: write-a-webpack-plugin
+slug: write-a-webpack-plugin
 title: 写一个 Webpack 的插件
 tags: [webpack]
 ---

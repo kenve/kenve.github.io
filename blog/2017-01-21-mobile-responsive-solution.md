@@ -1,5 +1,5 @@
 ---
-id: mobile-responsive-solution
+slug: mobile-responsive-solution
 title: 移动端自适应解决方案
 tags: [javascript, mobile, html5]
 ---

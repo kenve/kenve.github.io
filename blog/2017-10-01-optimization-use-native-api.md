@@ -1,5 +1,5 @@
 ---
-id: optimization-use-native-api
+slug: optimization-use-native-api
 title: 性能优化之使用原生 API
 tags: [javascript, 性能优化]
 ---

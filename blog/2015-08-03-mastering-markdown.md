@@ -1,5 +1,5 @@
 ---
-id: markdown-tutorial
+slug: markdown-tutorial
 title: Markdown 笔记
 tags: [markdown]
 ---
@@ -156,7 +156,7 @@ __这段文字也为粗体(blod)__
 [link to Github]: https://www.github.com
 
 //链接到文件相对地址，格式：[该链接显示的内容]（文件的相对路径）
-5. [文件相对与该仓库的相对地址](../markdown-tutorial/master/LICENSE)
+5. [文件相对与该仓库的相对地址](./markdown-tutorial)
 
 //参数链接，格式：[显示的链接名称][第几条链接]
 //相对一起使用：[第几条链接]: 链接地址
@@ -182,7 +182,7 @@ __这段文字也为粗体(blod)__
 
    [link to Github]: https://www.github.com
 
-5. [文件相对与该仓库的相对地址](../markdown-tutorial/master/LICENSE)
+5. [文件相对与该仓库的相对地址](./markdown-tutorial)
 
 6. [GitHub 参数数字链接][1]
 

@@ -1,5 +1,5 @@
 ---
-id: understanding-json-schema
+slug: understanding-json-schema
 title: 理解 JSON Schema
 tags: [json]
 ---

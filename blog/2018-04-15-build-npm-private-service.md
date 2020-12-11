@@ -1,5 +1,5 @@
 ---
-id: build-npm-private-service
+slug: build-npm-private-service
 title: 使用 Nexus Repository Manager OSS 搭建 NPM 私服
 tags: [npm, nexus]
 ---

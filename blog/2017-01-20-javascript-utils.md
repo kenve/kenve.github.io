@@ -1,5 +1,5 @@
 ---
-id: javascript-utils
+slug: javascript-utils
 title: javascript 工具函数
 tags: [javascript, utils]
 ---
