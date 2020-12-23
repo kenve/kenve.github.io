@@ -11,8 +11,8 @@ module.exports = {
       id: 'supportus',
       content:
         '<b>⭐️ Welcome to star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve/kenve.github.io">GitHub</a> ⭐️</b>',
-        backgroundColor: 'var(--ifm-color-primary)',
-        textColor: '#fff',
+      backgroundColor: 'var(--ifm-color-primary)',
+      textColor: '#fff',
     },
     sidebarCollapsible: false,
     algolia: {
@@ -34,6 +34,11 @@ module.exports = {
         {
           href: 'https://github.com/kenve/leetcode',
           label: 'LeetCode 题解',
+          position: 'right',
+        },
+        {
+          to: '/',
+          label: 'Blog',
           position: 'right',
         },
         {
