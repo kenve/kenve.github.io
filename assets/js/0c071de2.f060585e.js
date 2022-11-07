@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkenve_github_io=self.webpackChunkkenve_github_io||[]).push([[321],{3125:function(e){e.exports=JSON.parse('{"permalink":"/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":14,"previousPage":"/","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="155"
+   height="155"
+   id="svg2">
+  <defs
+     id="defs5">
+    <linearGradient
+       id="linearGradient2780">
+      <stop
+         style="stop-color:#2d90ff;stop-opacity:1"
+         offset="0"
+         id="stop2782" />
+      <stop
+         style="stop-color:#f5faff;stop-opacity:1"
+         offset="1"
+         id="stop2784" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2768">
+      <stop
+         style="stop-color:#f32dff;stop-opacity:1"
+         offset="0"
+         id="stop2770" />
+      <stop
+         style="stop-color:#fff5ff;stop-opacity:1"
+         offset="1"
+         id="stop2772" />
+    </linearGradient>
+    <linearGradient
+       x1="59.491405"
+       y1="70.887466"
+       x2="168.56757"
+       y2="166.45897"
+       id="linearGradient2832"
+       xlink:href="#linearGradient2780"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="59.491405"
+       y1="70.887466"
+       x2="168.56757"
+       y2="166.45897"
+       id="linearGradient2838"
+       xlink:href="#linearGradient2768"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     d="M 168.20639 118.67322 A 54.176903 47.469288 0 1 1  59.852585,118.67322 A 54.176903 47.469288 0 1 1  168.20639 118.67322 z"
+     transform="matrix(1.384354,0,0,1.579969,-80.35718,-110)"
+     style="opacity:0.6;fill:url(#linearGradient2832);fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:0.67616415;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path2776" />
+  <path
+     d="M 168.20639 118.67322 A 54.176903 47.469288 0 1 1  59.852585,118.67322 A 54.176903 47.469288 0 1 1  168.20639 118.67322 z"
+     transform="matrix(0.783604,0,0,0.894331,-29.01613,-10.26507)"
+     style="opacity:0.6;fill:url(#linearGradient2838);fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:1.19454563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path1881" />
+  <text
+     x="48.366608"
+     y="93.797478"
+     style="font-size:28px;font-style:normal;font-weight:bold;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     id="text2786"
+     xml:space="preserve"><tspan
+       x="48.366608"
+       y="93.797478"
+       id="tspan2788">A</tspan></text>
+  <text
+     x="117.19276"
+     y="57.706001"
+     style="font-size:28px;font-style:normal;font-weight:bold;text-align:center;text-anchor:middle;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+     id="text2790"
+     xml:space="preserve"><tspan
+       x="117.19276"
+       y="57.706001"
+       id="tspan2792">B</tspan></text>
+</svg>
