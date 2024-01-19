@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkenve_github_io=self.webpackChunkkenve_github_io||[]).push([[8502],{9844:function(e){e.exports=JSON.parse('{"permalink":"/tags/javascript","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
