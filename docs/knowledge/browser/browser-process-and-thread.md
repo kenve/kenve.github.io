@@ -1,6 +1,7 @@
 ---
 id: browser-process-and-thread
 title: 浏览器进程和线程
+keywords:
   - 浏览器
   - 进程
   - 线程

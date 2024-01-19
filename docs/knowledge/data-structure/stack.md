@@ -257,7 +257,7 @@ function decimalToBinary(decNumber) {
 }
 ```
 
-:::caution 请注意
+:::warning 请注意
 JavaScript 有数值类型，但是它不会区分整数和浮点数。因此，要使用 `Math.floor` 函数仅返回除法运算结果的整数部分。
 :::
 

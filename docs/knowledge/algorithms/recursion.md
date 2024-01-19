@@ -198,7 +198,7 @@ function fibonacci(n) {
 
 ![递归实现斐波那契数列](/img/recursion-fibonacci.png)
 
-:::caution 注意
+:::warning 注意
 递归实现斐波那契数列的效率非常低，避免使用递归实现。
 :::
 

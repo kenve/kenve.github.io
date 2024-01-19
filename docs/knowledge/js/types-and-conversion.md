@@ -157,7 +157,7 @@ if (``)
 if (document.all)
 ```
 
-:::caution
+:::warning
 `document.all` 在过去被用于浏览器检测，是 HTML 规范在此定义了故意与 ECMAScript 标准相违背的（`document.all` 虽然是一个对象，但其转换为 boolean 类型是 false）
 :::
 

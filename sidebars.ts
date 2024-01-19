@@ -1,4 +1,6 @@
-module.exports = {
+import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
+
+const sidebars: SidebarsConfig = {
   knowledgeSideBar: {
     前端知识: ['knowledge/introduction'],
     操作系统: ['knowledge/system/process-and-thread'],
@@ -34,3 +36,5 @@ module.exports = {
     ],
   },
 };
+
+export default sidebars;

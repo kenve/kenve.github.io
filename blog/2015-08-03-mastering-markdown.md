@@ -172,7 +172,7 @@ __这段文字也为粗体(blod)__
 
 **效果预览：**
 
-1. http://github.com or <http://www.github.com>
+1. http://github.com
 
 2. [GitHub](http://github.com)
 

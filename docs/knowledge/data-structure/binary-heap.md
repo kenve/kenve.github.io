@@ -276,7 +276,7 @@ console.log('Extract minimum: ', heap.extract()); // 1
 
 ## 创建最大堆类
 
-MaxHeap 类的算法和 MinHeap 类的算法一模一样。不同之处在于我们要把所有 >（大于）的比较换成 <（小于）的比较。
+MaxHeap 类的算法和 MinHeap 类的算法一模一样。不同之处在于我们要把所有 `>`（大于）的比较换成 `<`（小于）的比较。
 
 MaxHeap 类的代码如下。
 
