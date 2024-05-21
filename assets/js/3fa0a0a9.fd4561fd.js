@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkenve_github_io=self.webpackChunkkenve_github_io||[]).push([[755],{9130:e=>{e.exports=JSON.parse('{"label":"Chrome","permalink":"/tags/chrome","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

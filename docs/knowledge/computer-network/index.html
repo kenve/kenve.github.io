@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="zh-Hans" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-knowledge/computer-network" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.2.1">
+<title data-rh="true">网络知识 | Kenve&#x27;s Blog</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://kenve.github.io/docs/knowledge/computer-network"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="网络知识 | Kenve&#x27;s Blog"><meta data-rh="true" name="description" content="计算机网络"><meta data-rh="true" property="og:description" content="计算机网络"><meta data-rh="true" name="keywords" content="JavaScript,前端,网络,计算机网络"><link data-rh="true" rel="icon" href="/img/favicon.png"><link data-rh="true" rel="canonical" href="https://kenve.github.io/docs/knowledge/computer-network"><link data-rh="true" rel="alternate" href="https://kenve.github.io/docs/knowledge/computer-network" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://kenve.github.io/docs/knowledge/computer-network" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/rss.xml" title="Kenve&#39;s Blog RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Kenve&#39;s Blog Atom Feed">
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164590421-1"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-164590421-1",{})</script><link rel="stylesheet" href="/assets/css/styles.d03bff55.css">
+<script src="/assets/js/runtime~main.ea591bb5.js" defer="defer"></script>
+<script src="/assets/js/main.54ea32e4.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const a=new URLSearchParams(window.location.search).entries();for(var[t,e]of a)if(t.startsWith("docusaurus-data-")){var n=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(n,e)}}catch(t){}}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><div class="announcementBar_mb4j" style="background-color:var(--ifm-color-primary);color:#fff" role="banner"><div class="announcementBarPlaceholder_vyr4"></div><div class="content_knG7 announcementBarContent_xLdY"><b>⭐️ Welcome to star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/kenve/kenve.github.io">GitHub</a> ⭐️</b></div><button type="button" aria-label="关闭" class="clean-btn close closeButton_CVFx announcementBarClose_gvF7"><svg viewBox="0 0 15 15" width="14" height="14"><g stroke="currentColor" stroke-width="3.1"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div><nav aria-label="主导航" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">Kenve&#x27;s Blog</b></a></div><div class="navbar__items navbar__items--right"><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/">博客</a><a class="navbar__item navbar__link" href="/docs/knowledge/introduction">基础知识</a><a class="navbar__item navbar__link" href="/docs/knowledge/data-structure/stack">数据结构 &amp; 算法</a><a class="navbar__item navbar__link" href="/docs/knowledge/webpack">Webpack</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/knowledge/computer-network">计算机网络</a><a href="https://github.com/kenve/leetcode" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">LeetCode 题解<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a href="https://github.com/kenve" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="切换浅色/暗黑模式（当前为浅色模式）" aria-label="切换浅色/暗黑模式（当前为浅色模式）" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">本页总览</button></div><div class="theme-doc-markdown markdown"><h1>基础</h1>
+<p>网络：</p>
+<ol>
+<li>二层转发：设备工作在链路层，帧在经过交换机设备时，检查帧的头部信息，拿到目标 mac 地址，进行本地转发和广播</li>
+<li>三层路由：设备工作在网络（ip）层，报文经过有路由功能的设备时，设备分析报文中的头部信息，拿到 ip 地址，根据网段范围，进行本地转发或选择下一个网关</li>
+<li>dns，网络请求的第一步是域名解析，所以工作在应用层</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="域名">域名<a href="#域名" class="hash-link" aria-label="域名的直接链接" title="域名的直接链接">​</a></h2>
+<p>DNS 的核心系统是一个三层的树状 、分布式服务，基本对应域名的结构：</p>
+<p>根域名服务器（Root DNS Server）：管理顶级域名服务器，返回“com”“net”“cn”等顶级域名服务器的 IP 地址；
+顶级域名服务器（Top-level DNS Server）：管理各自域名下的权威域名服务器，比如 com 顶级域名服务器可以返回 <code>apple.com</code> 域名服务器的 IP 地址；
+权威域名服务器（Authoritative DNS Server）：管理自己域名下主机的 IP 地址，比如 <code>apple.com</code> 权威域名服务器可以返回 <code>www.apple.com</code> 的 IP 地址。</p>
+<p>任何一个域名都可以在这个树形结构里从顶至下进行查询，就好像是把域名从右到左顺序走了一遍，最终就获得了域名对应的 IP 地址。</p>
+<p>例如，你要访问 <code>www.apple.com</code>，就要进行下面的三次查询：</p>
+<p>访问根域名服务器，它会告诉你 <code>com</code> 顶级域名服务器的地址；
+访问“com”顶级域名服务器，它再告诉你 <code>apple.com</code> 域名服务器的地址；
+最后访问 <code>apple.com</code> 域名服务器，就得到了 <code>www.apple.com</code> 的地址。</p>
+<ul>
+<li>知名的 DNS 有 Google 的“8.8.8.8”，Microsoft 的“4.2.2.1”，还有 CloudFlare 的“1.1.1.1”等等</li>
+</ul>
+<p>总结：</p>
+<p>域名使用字符串来代替 IP 地址，方便用户记忆，本质上一个名字空间系统；
+DNS 就像是我们现实世界里的电话本、查号台，统管着互联网世界里的所有网站，是一个“超级大管家”；
+DNS 是一个树状的分布式查询系统，但为了提高查询效率，外围有多级的缓存；
+使用 DNS 可以实现基于域名的负载均衡，既可以在内网，也可以在外网。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="键入网址再按下回车后面究竟发生了什么">键入网址再按下回车，后面究竟发生了什么？<a href="#键入网址再按下回车后面究竟发生了什么" class="hash-link" aria-label="键入网址再按下回车，后面究竟发生了什么？的直接链接" title="键入网址再按下回车，后面究竟发生了什么？的直接链接">​</a></h2>
+<p>简要叙述一下这次最简单的浏览器 HTTP 请求过程：</p>
+<p>浏览器从地址栏的输入中获得服务器的 IP 地址和端口号；
+浏览器用 TCP 的三次握手与服务器建立连接；
+浏览器向服务器发送拼好的报文；
+服务器收到报文后处理请求，同样拼好报文再发给浏览器；
+浏览器解析报文，渲染输出页面。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-报文是什么样">HTTP 报文是什么样<a href="#http-报文是什么样" class="hash-link" aria-label="HTTP 报文是什么样的直接链接" title="HTTP 报文是什么样的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="请求行">请求行<a href="#请求行" class="hash-link" aria-label="请求行的直接链接" title="请求行的直接链接">​</a></h3>
+<p>了解了 HTTP 报文的基本结构后，我们来看看请求报文里的起始行也就是请求行（request line），它简要地描述了客户端想要如何操作服务器端的资源。</p>
+<p>请求行由三部分构成：</p>
+<ul>
+<li>请求方法：是一个动词，如 GET/POST，表示对资源的操作；</li>
+<li>请求目标：通常是一个 URI，标记了请求方法要操作的资源；</li>
+<li>版本号：表示报文使用的 HTTP 协议版本。</li>
+</ul>
+<p>这三个部分通常使用空格（space）来分隔，最后要用 CRLF 换行表示结束。</p>
+<p><code>GET /get/user HTTP/1.1</code></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="状态行">状态行<a href="#状态行" class="hash-link" aria-label="状态行的直接链接" title="状态行的直接链接">​</a></h3>
+<p>看完了请求行，我们再看响应报文里的起始行，在这里它不叫“响应行”，而是叫“状态行”（status line），意思是服务器响应的状 态。</p>
+<p>比起请求行来说，状态行要简单一些，同样也是由三部分构成：</p>
+<ul>
+<li>版本号：表示报文使用的 HTTP 协议版本；</li>
+<li>状态码：一个三位数，用代码的形式表示处理的结果，比如 200 是成功，500 是服务器错误；</li>
+<li>原因：作为数字状态码补充，是更详细的解释文字，帮助人理解原因。</li>
+</ul>
+<p><code>HTTP/1.1 200 OK</code></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="头部字段">头部字段<a href="#头部字段" class="hash-link" aria-label="头部字段的直接链接" title="头部字段的直接链接">​</a></h3>
+<p>头字段需要注意下面几点：</p>
+<ul>
+<li>字段名不区分大小写，例如“Host”也可以写成“host”，但首字母大写的可读性更好；</li>
+<li>字段名里不允许出现空格，可以使用连字符“-”，但不能使用下划线“_”。例如，“test-name”是合法的字段名，而“test name”“test_name”是不正确的字段名；</li>
+<li>字段名后面必须紧接着“:”，不能有空格，而“:”后的字段值前可以有多个空格；</li>
+<li>字段的顺序是没有意义的，可以任意排列不影响语义；</li>
+<li>字段原则上不能重复，除非这个字段本身的语义允许，例如 Set-Cookie。</li>
+</ul>
+<p>HTTP 协议规定了非常多的头部字段，实现各种各样的功能，但基本上可以分为四大类：</p>
+<ol>
+<li>通用字段：在请求头和响应头里都可以出现；</li>
+<li>请求字段：仅能出现在请求头里，进一步说明请求信息或者额外的附加条件；</li>
+<li>响应字段：仅能出现在响应头里，补充说明响应报文的信息；</li>
+<li>实体字段：它实际上属于通用字段，但专门描述 body 的额外信息。</li>
+</ol>
+<ul>
+<li>Host 字段，它属于请求字段，只能出现在请求头里，它同时也是唯一一个 HTTP/1.1 规范里要求必须出现的字段，也就是说，如果请求头里没有 Host，那这就是一个错误的报文。</li>
+<li>Date 字段是一个通用字段，但通常出现在响应头里，表示 HTTP 报文创建的时间，客户端可以使用这个时间再搭配其他字段决定缓存策略。</li>
+<li>Server 字段是响应字段，只能出现在响应头里。</li>
+</ul>
+<p><strong>如果头字段后多了一个 CRLF，会被当做 body 处理；头字段时说“:”后的空格可以有多个，绝大多数情况下都只使用一个空格是为了节省资源。</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="如何理解请求方法">如何理解请求方法？<a href="#如何理解请求方法" class="hash-link" aria-label="如何理解请求方法？的直接链接" title="如何理解请求方法？的直接链接">​</a></h2>
+<p>目前 HTTP/1.1 规定了八种方法，单词都必须是大写的形式，我先简单地列把它们列出来，后面再详细讲解。（前四个是比较常用的）</p>
+<ol>
+<li>GET：获取资源，可以理解为读取或者下载数据；</li>
+<li>HEAD：获取资源的元信息；请求资源的头部信息, 并且这些头部与 HTTP GET 方法请求时返回的一致，不会返回请求的实体数据，只会传回响应头，也就是资源的“元信息”. 该请求方法的一个使用场景是在 下载一个大文件前先获取其大小再决定是否要下载, 以此可以节约带宽资源；检查一个文件是否存在；检查文件是否有最新版本</li>
+<li>POST：向资源提交数据，相当于写入或上传数据；</li>
+<li>PUT：类似 POST；用于新增资源或者使用请求中的有效负载替换目标资源的表现形式</li>
+<li>DELETE：用于删除指定的资源；</li>
+<li>CONNECT：建立特殊的连接隧道；HTTP/1.1 协议中预留给能够将连接改为管道方式的代理服务器</li>
+<li>OPTIONS：列出可对资源实行的方法；用于获取目的资源所支持的通信选项</li>
+<li>TRACE：追踪请求 - 响应的传输路径。回显服务器  收到的请求，主要用于测试或诊断；它的本意是好的，但存在漏洞，会泄漏网站的信息，所以 Web 服务器通常也是禁止使用</li>
+</ol>
+<p>扩展方法：例如 MKCOL、COPY、MOVE、LOCK、UNLOCK、PATCH 等</p>
+<p>PATCH: 用于对资源进行部分修改； LOCK 方法锁定资源暂时不允许修改</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="安全与幂等">安全与幂等<a href="#安全与幂等" class="hash-link" aria-label="安全与幂等的直接链接" title="安全与幂等的直接链接">​</a></h3>
+<p>安全与幂等。所谓的“安全”是指请求方法不会“破坏”服务器上的资源，即不会对服务器上的资源造成实质的修改。</p>
+<p>按照这个定义，只有 GET 和 HEAD 方法是“安全”的，因为它们是“只读”操作，只要服务器不故意曲解请求方法的处理方式，无论 GET 和 HEAD 操作多少次，服务器上的数据都是“安全的”。</p>
+<p>而 POST/PUT/DELETE 操作会修改服务器上的资源，增加或删除数据，所以是“不安全”的。</p>
+<p>所谓的“幂等”实际上是一个数学用语，被借用到了 HTTP 协议里，意思是多次执行相同的操作，结果也都是相同的，即多次“幂”后结果“相等”。</p>
+<p>很显然，GET 和 HEAD 既是安全的也是幂等的，DELETE 可以多次删除同一个资源，效果都是“资源不存在”，所以也是幂等的。
+POST 和 PUT 的幂等性质就略费解一点。POST 是“新增或提交数据”，多次提交数据会创建多个资源，所以不是幂等的；而 PUT 是“替换或更新数据”，多次更新一个资源，资源还是会第一次更新的状态，所以是幂等的。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="网址">网址<a href="#网址" class="hash-link" aria-label="网址的直接链接" title="网址的直接链接">​</a></h2>
+<ul>
+<li>URI：也就是统一资源标识符（Uniform Resource Identifier）</li>
+<li>URL：统一  资源定位符（Uniform Resource Locator）</li>
+<li>URN：统一资源名称（Uniform Resource Name）
+URI 不完全等同于网址，它包含有 URL 和 URN 两个部分。</li>
+</ul>
+<p>URI 最常用的形式：由 scheme、host<!-- -->:port<!-- -->、path 和 query 四个部分组成，</p>
+<p>URI 最常用的形式，由四个部分组成部分可以视情况省略：</p>
+<p><code>scheme://host:port/path?query=</code></p>
+<ul>
+<li>scheme：叫“方案名”或者“协议名”，表示资源应该使用哪种协议来访问。常见的 HTTP、经过加密、安全的 HTTPS 协议。此外还有其他不是很常见：ftp、ldap、file、news</li>
+<li>host<!-- -->:port<!-- -->：在”://”之后，是被称为“authority”的部分，表示资源所在的主机名，通常的形式是“host<!-- -->:port<!-- -->”，即主机名加端口号。HTTP 的默认端口号是 80，HTTPS 的默认端口号是 443。</li>
+<li>path：标记资源所在位置的路径</li>
+<li>query：请求查询参数，格式为多个“key=value”的字符串，这些 KV 值用字符“&amp;”拼接。</li>
+</ul>
+<p>采用了 UNIX 的“/”风格</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">https://test.xxx.com/get/user?userid=1&amp;name=test</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">file:///C:/work/test/</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>URI 还有一个“真正”的完整形态 <code>scheme</code> <code>://</code> <code>user:passwd@</code> <code>host:port</code> <code>path</code> <code>?query</code> <code>#fragment</code></p>
+<ul>
+<li>协议名之后、主机名之前的身份信息“user<!-- -->:passwd<!-- -->@”，表示登录主机时的用户名和密码，但现在已经不推荐使用这种形式了（RFC7230），因为它把敏感信息以明文形式暴露出来，存在严重的安全隐患。</li>
+<li>查询参数后的片段标识符“#fragment”，它是 URI 所定位的资源内部的一个“锚点”或者说是“标签”，浏览器可以在获取资源后直接跳转到它指示的位置。仅由浏览器客户端使用，浏览器不会把带“#fragment”的 URI 发送给服务器，服务器也不会处理。</li>
+</ul>
+<p>在 URI 里对“@&amp;/”等特殊字符和汉字必须要做编码，否则服务器收到 HTTP 报文后会无法正确处理。URI 引入了编码机制，对于 ASCII 码以外的字符集和特殊字符会把它们转换成与 URI 语义不冲突的形式。这在 RFC 规范里称为“escape”和“unescape”，俗称“转义”。</p>
+<p>URI 转义的规则为把非 ASCII 码或特殊字符转换成十六进制字节值，然后前面再加上一个“%”。例如：空格被转义成“%20”，“?”被转义成“%3F”。而中文、日文等则通常使用 UTF-8 编码后再转义，例如“银河”会被转义成“%E9%93%B6%E6%B2%B3”。不过我们在浏览器的地址栏里通常不会看到转义后的“乱码”的，实际上是浏览器一种“友好”表现，隐藏了 URI 编码后的“丑陋一面”。从地址栏，把它再拷贝到其他的编辑器里，如果有转义 的字符它就会展示为转义后的字符。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="响应状态码">响应状态码<a href="#响应状态码" class="hash-link" aria-label="响应状态码的直接链接" title="响应状态码的直接链接">​</a></h2>
+<p>五类的具体含义是：</p>
+<ul>
+<li>1××：提示信息，表示目前是协议处理的中间状态，还需要后续的操作；<!-- -->
+<ul>
+<li>101 Switching Protocols”。它的意思是客户端使用 Upgrade 头字段，要求在 HTTP 协议的基础上改成其他的协议继续通信，比如 WebSocket。而如果服务器也同意变更协议，就会发送状态码 101，但这之后的数据传输就不会再使用 HTTP 了。</li>
+</ul>
+</li>
+<li>2xx：成功，报文已经收到并被正确处理；<!-- -->
+<ul>
+<li>200 OK，表示从客户端发来的请求在服务器端被正确处理</li>
+<li>201 Created 请求已经被实现，而且有一个新的资源已经依据请求的需要而建立</li>
+<li>202 Accepted 请求已接受，但是还没执行，不保证完成请求</li>
+<li>204 No content，表示请求成功，但响应报文不含实体的主体部分</li>
+<li>206 Partial Content，进行范围请求。是 HTTP 分块下载或断点续传的基础，服务器成功处理了请求，但 body 里的数据不是资源的全部，而是其中的一部分。通常伴随着头字段“Content-Range”，表示响应报文里 body 数据的具体范围，供客户端确认，例如“Content-Range: bytes 0-99/2000”，意思是此次获取的是总计 2000 个字节的前 100 个字节。</li>
+</ul>
+</li>
+<li>3xx：重定向，资源位置发生变动，需要客户端重新发送请求；<!-- -->
+<ul>
+<li>301 moved permanently，永久性重定向，表示资源已被分配了新的 URL</li>
+<li>302 found，临时性重定向，表示资源临时被分配了新的 URL</li>
+<li>303 see other，表示资源存在着另一个 URL，应使用 GET 方法获取资源</li>
+<li>304 not modified，表示服务器允许访问资源，但因发生请求未满足条件的情况。用于缓存控制。</li>
+<li>307 temporary redirect，临时重定向，和 302 含义相同</li>
+<li>308 Permanent Redirect 永久重定向</li>
+</ul>
+</li>
+<li>4xx：客户端错误，请求报文有误，服务器无法处理；<!-- -->
+<ul>
+<li>400 bad request，请求报文存在语法错误</li>
+<li>401 unauthorized，表示发送的请求需要有通过 HTTP 认证的认证信息</li>
+<li>403 forbidden，表示对请求资源的访问被服务器拒绝</li>
+<li>404 not found，表示在服务器上没有找到请求的资源</li>
+<li>405 Method Not Allowed：不允许使用某些方法操作资源，例如不允许 POST 只能 GET；</li>
+<li>406 Not Acceptable：资源无法满足客户端请求的条件，例如请求中文但只有英文；</li>
+<li>408 Request Timeout：请求超时，服务器等待了过长的时间；</li>
+<li>409 Conflict：多个请求发生了冲突，可以理解为多线程并发时的竞态；</li>
+<li>413 Request Entity Too Large：请求报文里的 body 太大；</li>
+<li>414 Request-URI Too Long：请求行里的 URI 太大；</li>
+<li>429 Too Many Requests：客户端发送了太多的请求，通常是由于服务器的限连策略；</li>
+<li>431 Request Header Fields Too Large：请求头某个字段或总体太大；</li>
+</ul>
+</li>
+<li>5xx：服务器错误，服务器在处理请求时内部发生了错误<!-- -->
+<ul>
+<li>500 internal sever error，表示服务器端在执行请求时发生了错误</li>
+<li>501 Not Implemented 请求超出服务器能力范围，例如服务器不支持当前请求所需要的某个功能，或者请求是服务 器不支持的某个方法</li>
+<li>503 service unavailable，表明服务器暂时处于超负载或正在停机维护，无法处理请求 。是一个“临时”的状态，响应报文里通常还会有一个“Retry-After”字段，指示客户端可以在多久以后再次尝试发送请求。</li>
+<li>505 http version not supported 服务器不支持 ，或者拒绝支持在请求中使用的 HTTP 版本</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-有哪些特点">HTTP 有哪些特点<a href="#http-有哪些特点" class="hash-link" aria-label="HTTP 有哪些特点的直接链接" title="HTTP 有哪些特点的直接链接">​</a></h2>
+<ul>
+<li>灵活可扩展：HTTP 协议是一个“灵活可扩展”的传输协议，可以任意添加头字段实现任意功能。在发展过程不断添加新功能和特性；</li>
+<li>可靠传输：HTTP 协议是一个“可靠”的传输协议，基于 TCP/IP 协议“尽量”保证数据的送达。因为 HTTP 协议是基于 TCP/IP 的，从而继承 TCP 的“可靠”的特性，能够在请求方和应答方之间“可靠”地传输数据。它的具体做法与 TCP/UDP 差不多，都是对实际传输的数据（entity）做了一层包装，加上一个头，然后调用 Socket API，通过 TCP/IP 协议栈发送或者接收；</li>
+<li>应用层协议：HTTP 协议是一个应用层的协议，比 FTP、SSH 等更通用功能更多，能够传输任意数据；</li>
+<li>请求-应答：HTTP 协议使用的是请求-应答通信模式，客户端主动发起请求，服务器被动回复请求。是 HTTP 协议最根本的通信模型，通俗来讲就是“一发一收”。该模式也完全符合 RPC（Remote Procedure Call）的工作模式，可以把 HTTP 请求处理封装成远程函数调用，导致了 WebService、RESTful 和 gPRC 等的出现；</li>
+<li>无状态：HTTP 协议是无状态的，每个请求都是互相独立、毫无关联的，协议不要求客户端或服务器记录请求相关的信息。 HTTP 是有连接无状态，顺序发包顺序收包，按照收发的顺序管理报文；</li>
+<li>其他特点：除了以上的五大特点，其他例如传输的实体数据可缓存可压缩、可分段获取数据、支持身份认证、支持国际化语言等。这些并不能算是 HTTP 的基本特点，因为这都是由第一个“灵活 可扩展”的特点所衍生出来的。</li>
+</ul>
+<p>http1.0 是“无连接”的每次请求应答后都会关闭，http1.1 后默认开启 keep-alive 长连接机制，所以 HTTP 以不再是“无连接”了。</p>
+<p>灵活可扩张是最大优点，可靠性比不上 MQ（保证 100% 收发成功使用消息中间件），传输数据虽然通用，可是文件传输时效率肯定比不是 FTP，无状态，在需要状态的地方通过扩展弥补不足。请求应答，有些需要服务器主动推得需要用 websocket 协议。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-有哪些优点又有哪些缺点">HTTP 有哪些优点？又有哪些缺点<a href="#http-有哪些优点又有哪些缺点" class="hash-link" aria-label="HTTP 有哪些优点？又有哪些缺点的直接链接" title="HTTP 有哪些优点？又有哪些缺点的直接链接">​</a></h2>
+<ul>
+<li>HTTP 最大的优点是简单、灵活和易于扩展；</li>
+<li>HTTP 拥有成熟的软硬件环境，应用的非常广泛，是互联网的基础设施；</li>
+<li>HTTP 是无状态的，可以轻松实现集群化，扩展性能，但有时也需要用 Cookie 技术来实现“有状态”；</li>
+<li>HTTP 是明文传输，数据完全肉眼可见，能够方便地研究分析，但也容易被窃听；</li>
+<li>HTTP 是不安全的，无法验证通信双方的身份，也不能判断报文是否被窜改；</li>
+<li>HTTP 的性能不算差，但不完全适应现在的互联网，还有很大的提升空间。</li>
+</ul>
+<h1>进阶</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-的实体数据">HTTP 的实体数据<a href="#http-的实体数据" class="hash-link" aria-label="HTTP 的实体数据的直接链接" title="HTTP 的实体数据的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="数据类型与编码">数据类型与编码<a href="#数据类型与编码" class="hash-link" aria-label="数据类型与编码的直接链接" title="数据类型与编码的直  接链接">​</a></h3>
+<p>“多用途互联网邮件扩展”（Multipurpose Internet Mail Extensions），简称为 MIME。MIME 是一个很大的标准规范，但 HTTP 只“顺手牵羊”取了其中的一部分，用来标记 body 的数据类型，这就是我们平常总能听到的“MIME type”。</p>
+<p>MIME 把数据分成了八大类，每个大类下再细分出多个子类，形式是“type/subtype”的字符串，巧得很，刚好也符合了 HTTP 明文的特点，所以能够很容易地纳入 HTTP 头字段里。</p>
+<p>HTTP 里经常遇到的几个类别：</p>
+<ul>
+<li>text：即文本格式的可读数据，我们最熟悉的应该就是 text/html 了，表示超文本文档，此外还有纯文本 text/plain、样式表 text/css 等。</li>
+<li>image：即图像文件，有 image/gif、image/jpeg、image/png 等。</li>
+<li>audio/video：音频和视频数据，例如 audio/mpeg、video/mp4 等。</li>
+<li>application：数据格式不固定，可能是文本也可能是二进制，必须由上层应用程序来解释。常见的有 application/json，application/javascript、application/pdf 等，另外，如果实在是不知道数据是什么类型，像刚才说的“黑盒”，就会是 application/octet-stream，即不透明的二进制数据。</li>
+</ul>
+<p>HTTP 在传输时为了节约带宽，有时候还会压缩数据 “Encoding type”，告诉数据是用的什么编码格式，浏览器正确解压缩，还原出原始的数据。</p>
+<p>比起 MIME type 来说，Encoding type 就少了很多，常用的只有下面三种：</p>
+<ul>
+<li>gzip：GNU zip 压缩格式，也是互联网上最流行的压缩格式； LZ77 huffman （protobuf）</li>
+<li>deflate：zlib（deflate）压缩格式，流行程度仅次于 gzip；</li>
+<li>br：一种专门为 HTTP 优化的新压缩算法（Brotli）。</li>
+</ul>
+<p>HTTP 协议为此定义了两个 Accept 请求头字段和两个 Content 实体头字段，用于客户端和服务器进行“内容协商”。也就是说，客 户端用 Accept 头告诉服务器希望接收什么样的数据，而服务器用 Content 头告诉客户端实际发送了什么样的数据。</p>
+<ul>
+<li>数据类型表示实体数据的内容是什么，使用的是 MIME type，相关的头字段是 Accept 和 Content-Type；</li>
+<li>数据编码表示实体数据的压缩方式，相关的头字段是 Accept-Encoding 和 Content-Encoding；</li>
+<li>语言类型表示实体数据的自然语言，相关的头字段是 Accept-Language 和 Content-Language；</li>
+<li>字符集表示实体数据的编码方式，相关的头字段是 Accept-Charset 和 Content-Type；</li>
+<li>客户端需要在请求头里使用 Accept 等头字段与服务器进行“内容协商”，要求服务器返回最合适的数据；</li>
+<li>Accept 等头字段可以用“,”顺序列出多个可能的选项，还可以用“;q=”参数来精确指定权重。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-传输大文件的方法">HTTP 传输大文件的方法<a href="#http-传输大文件的方法" class="hash-link" aria-label="HTTP 传输大文件的方法的直接链接" title="HTTP 传输大文件的方法的直接链接">​</a></h2>
+<ul>
+<li><strong>压缩</strong> HTML 等文本文件是传输大文件最基本的方法；</li>
+<li><strong>分块传输</strong>可以流式收发数据，节约内存和带宽，使用响应头字段“Transfer-Encoding: chunked”来表示，分块的格式是 16 进制长度头 + 数据块；</li>
+<li><strong>范围请求</strong>可以只获取部分数据，即“分块请求”，实现视频拖拽或者断点续传，使用请求头字段“Range”和响应头字段“Content-Range”，响应状态码必须是 206；</li>
+<li>多段数据，也可以<strong>一次请求多个范围</strong>，这时候响应报文的数据类型是“multipart/byteranges”，body 里的多个部分会用 boundary 字符串分隔</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-的连接管理">HTTP 的连接管理<a href="#http-的连接管理" class="hash-link" aria-label="HTTP 的连接管理的直接链接" title="HTTP 的连接管理的直接链接">​</a></h2>
+<ul>
+<li>早期的 HTTP 协议使用短连接，收到响应后就立即关闭连接，效率很低；</li>
+<li>HTTP/1.1 默认启用长连接，在一个连接上收发多个请求响应，提高了传输效率；</li>
+<li>服务器会发送“Connection: keep-alive”字段表示启用了长连接；</li>
+<li>报文头里如果有“Connection: close”就意味着长连接即将关闭；</li>
+<li>过多的长连接会占用服务器资源，所以服务器会用一些策略有选择地关闭长连接；</li>
+<li>“队头阻塞”问题会导致性能下降，可以用“并发连接”（上限 6 ～ 8 个）和“域名分片”(多开域名)技术缓解。</li>
+</ul>
+<p>因为 TCP 协议还有 “慢启动” “拥塞窗口”的特性，所以通常新建的“冷连接”会比打开了一段时间的“热连接”要慢一些，所以长连接比短连接还多了这个优势。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-的重定向和跳转">HTTP 的重定向和跳转<a href="#http-的重定向和跳转" class="hash-link" aria-label="HTTP 的重定向和跳转的直接链接" title="HTTP 的重定向和跳转的直接链接">​</a></h2>
+<ul>
+<li>由浏览器的使用者主动发起的，可以称为“主动跳转”</li>
+<li>跳转是由服务器来发起的，浏览器使用者无法控制，称为“被动跳转”，这在 HTTP 协议里有个专门的名词，叫做“重定向”（Redirection）</li>
+</ul>
+<p><code>Location: /index.html</code> 重定向的过程，重定向是“用户无感知”的。由“Location”字段属于响应字段，必须出现在响应报文里。但只有配合 301/302 状态码才有意义，它标记了服务器要求重定向的 URI，这里就是要求浏览器跳转到“index.html”。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="301-302-303-307-308">301 302 303 307 308<a href="#301-302-303-307-308" class="hash-link" aria-label="301 302 303 307 308的直接链接" title="301 302 303 307 308的直接链接">​</a></h3>
+<p>301 和 302 本来在规范中是不允许重定向时改变请求方法的（将 POST 改为 GET），但是许多浏览器却允许重定向时改变请求方法（这是一种不规范的实现）。
+303 的出现正是为了给上面的 301，302 这种行为作出个规范（将错就错吧），也就是允许重定向时改变请求方法。此外 303 响应禁止被缓存。</p>
+<p>307 和 308 的出现也是给上面的行为做个规范，不过是不允许重定向时改变请求方法。</p>
+<table><thead><tr><th>描述</th><th>永久（Permanent）</th><th>临时（Temporary）</th></tr></thead><tbody><tr><td>Allows changing the request method from POST to GET.（允许重定向时将 POST 改为 GET）</td><td>301</td><td>302</td></tr><tr><td>Does not allow changing the request method from POST to GET.（不允许重定向时将 POST 改为 GET）</td><td>308</td><td>307</td></tr></tbody></table>
+<p>注：永久（Permanent）和临时（Temporary）的区别：</p>
+<ul>
+<li>永久是指原来访问的资源已经永久删除啦，客户端应该根据新的 URI 访问重定向。</li>
+<li>临时是指访问的资源可能暂时先用 location 的 URI 访问，但旧资源还在的，下次你再来访问的时候可能就不用重定向了。</li>
+</ul>
+<p>301 俗称“永久重定向”（Moved Permanently），意思是原 URI 已经“永久”性地不存在了，今后的所有请求都必须改用新的 URI。
+302 俗称“临时重定向”（“Moved Temporarily”），意思是原 URI 处于“临时维护”状态，新的 URI 是起“顶包”作用的“临时工”。
+303 See Other：类似 302，但要求重定向后的请求改为 GET 方法，访问一个结果页面，避免 POST/PUT 重复操作；
+307 Temporary Redirect：类似 302，但重定向后请求里的方法和实体不允许变动，含义比 302 更明确；
+308 Permanent Redirect：类似 307，不允许重定向后的请求变动，但它是 301“永久重定向”的含义。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-的-cookie-机制">HTTP 的 Cookie 机制<a href="#http-的-cookie-机制" class="hash-link" aria-label="HTTP 的 Cookie 机制的直接链接" title="HTTP 的 Cookie 机制的直接链接">​</a></h2>
+<p>HTTP 是“无状态”的，这既是优点也是缺点。优点是服务器没有状态差异，可以很容易地组成集群，而缺点就是无法支持需要记录状态的事务操作。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cookie-的工作过程">Cookie 的工作过程<a href="#cookie-的工作过程" class="hash-link" aria-label="Cookie 的工作过程的直接链接" title="Cookie 的工作过程的直接链接">​</a></h3>
+<p>传递：响应头字段 Set-Cookie 和请求头字段 Cookie。</p>
+<p>服务器有时会在响应头里添加多个 Set-Cookie，存储多个“key=value”。但浏览器这边发送时不需要用多个 Cookie 字段，只要在一行里用“;”隔开就行</p>
+<ul>
+<li>Cookie 的有效期可以使用 Expires 和 Max-Age 两个属性来设置。<!-- -->
+<ul>
+<li>“Expires”俗称“过期时间”，用的是绝对时间点，可以理解为“截止日期”（deadline）。</li>
+<li>“Max-Age”用的是相对时间，单位是秒，浏览器用收到报文的时间点再加上 Max-Age，就可以得到失效的绝对时间。（优先采用 Max-Age 计算失效期）</li>
+<li>如果不指定下面两个属性，那么 Cookie 仅在浏览器运行时有效，关闭浏览器后失效，这被称为你会话 Cookie（session cookie）或者内存 Cookie（in-memory cookie）在 Chrome 中过期时间显示为 “Session” 或 “N/A”</li>
+</ul>
+</li>
+<li>Cookie 作用域的设置比较简单，“Domain”和“Path”指定了 Cookie 所属的域名和路径。（通常 Path 就用一个“/”或者直接省略）</li>
+<li>Cookie 的安全性<!-- -->
+<ul>
+<li>属 性“HttpOnly”会告诉浏览器，此 Cookie 只能通过浏览器 HTTP 协议传输，禁止其他方式访问。（防：“跨站脚本”（XSS））</li>
+<li>属性“SameSite”可以防范“跨站请求伪造”（XSRF）攻击，设置成“SameSite=Strict”可以严格限定 Cookie 不能随着跳转链接跨站发送，而“SameSite=Lax”则略宽松一点，允许 GET/HEAD 等安全方法，但禁止 POST 跨站发送。</li>
+<li>属性叫“Secure”，表示这个 Cookie 仅能用 HTTPS 协议加密传输，明文的 HTTP 协议会禁止发送。但 Cookie</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cookie-的应用">Cookie 的应用<a href="#cookie-的应用" class="hash-link" aria-label="Cookie 的应用的直接链接" title="Cookie 的应用的直接链接">​</a></h3>
+<ul>
+<li>Cookie 最基本的一个用途就是身份识别，保存用户的登录信息，实现会话事务。</li>
+<li>Cookie 的另一个常见用途是广告跟踪。（“第三方 Cookie”（third-party cookie））</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-的缓存控制">HTTP 的缓存控制<a href="#http-的缓存控制" class="hash-link" aria-label="HTTP 的缓存控制的直接链接" title="HTTP 的缓存控制的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="服务器缓存控制">服务器缓存控制<a href="#服务器缓存控制" class="hash-link" aria-label="服务器缓存控制的直接链接" title="服务器缓存控制的直接链接">​</a></h3>
+<p>HTTP 的缓存流程：</p>
+<ol>
+<li>浏览器发现缓存无数据，于是发送请求，向服务器获取资源；</li>
+<li>服务器响应请求，返回资源，同时标记资源的有效期；</li>
+<li>浏览器缓存资源，等待下次重用。</li>
+</ol>
+<ul>
+<li>Expires 字段来标记资源的有效期，绝对时间，HTTP/1.0</li>
+<li>Cache-Control: Cache-Control 出现于 HTTP/1.1，优先级高于 Expires（绝对时间）,表示的是相对时间  。</li>
+</ul>
+<p>主流的做法使用服务器使用 Cache-Control 控制缓存，除了 max-age 控制过期时间外，还有一些不得不提：</p>
+<ul>
+<li>Cache-Control: public 可以被所有用户缓存，包括终端和 CDN 等中间代理服务器</li>
+<li>Cache-Control: private 只能被终端浏览器缓存，不允许中继缓存服务器进行缓存</li>
+<li>Cache-Control: no-cache,先缓存本地，但是在命中缓存之后必须与服务器验证缓存的新鲜度才能使用</li>
+<li>Cache-Control: no-store，不会产生任何缓存</li>
+<li>Cache-Control: must-revalidate：它的意思是如果缓存不过期就可以继续使用，但过期了如果还想用就必须去服务器验证。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="客户端缓存控制">客户端缓存控制<a href="#客户端缓存控制" class="hash-link" aria-label="客户端缓存控制的直接链接" title="客户端缓存控制的直接链接">​</a></h3>
+<p>不止服务器可以发“Cache-Control”头，浏览器也可以发“Cache-Control”，也就是说请求应答的双方都可以用这个字段进行缓存控制，互相协商缓存的使用策略。</p>
+<ul>
+<li>当你点“刷新”按钮的时候，浏览器会在请求头里加一个“Cache-Control: max-age=0”。</li>
+<li>Ctrl+F5 的“强制刷新”它其实是发了一个“Cache-Control: no-cache”，含义和“max-age=0”基本一样，通常两者的效果是相同的。</li>
+</ul>
+<p>在“前进”“后退”“跳转”这些重定向动作中浏览器不会“夹带私货”，只用最基本的请求头，没有“Cache-Control”，所以就会检查缓存，直接利用之前的资源，不再进行网络通信。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="条件请求协商缓存">条件请求（协商缓存）<a href="#条件请求协商缓存" class="hash-link" aria-label="条件请求（协商缓存）的直接链接" title="条件请求（协商缓存）的直接链接">​</a></h3>
+<p>条件请求一共有 5 个头字段，我们最常用的是“if-Modified-Since”和“If-None-Match”这两个。需要第一次的响应报文预先提供“Last-modified”和“ETag”，然后第二次请求时就可以带上缓存里的原值，验证资源是否是最新的。</p>
+<p>如果资源没有变，服务器就回应一个“304 Not Modified”，表示缓存依然有效，浏览器就可以更新一下有效期，然后放心大胆地使用缓存了。</p>
+<ul>
+<li>“Last-modified”很好理解，就是文件的最后修改时间。</li>
+<li>ETag 是“实体标签”（Entity Tag）的缩写，是资源的一个唯一标识，主要是用来解决修改时间无法准确区分文件变化的问题。优先级高于 “Last-modified”</li>
+</ul>
+<p>tips：</p>
+<ul>
+<li>如果响应报文中提供了 “Last-Modified”，但没有 “Cache-Control” 或者“Expires”，浏览器会使用“启发”（Heuristic）算法计算一个缓存时间，在 RFC 里的建议是：（Date - Last-Modified）* 10%。</li>
+<li>“no-cache” 属性可以理解为“max-age=0, must-revaildate”。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-的代理服务">HTTP 的代理服务<a href="#http-的代理服务" class="hash-link" aria-label="HTTP 的代理服务的直接链接" title="HTTP 的代理服务的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="代理服务">代理服务<a href="#代理服务" class="hash-link" aria-label="代理服务的直接链接" title="代理服务的直接链接">​</a></h3>
+<p>“代理服务”就是指服务本身不生产内容，而是处于中间位置转发上下游的请求和响应，具有双重身份：面向下游的用户时，表现为服务器，代表源服务器响应客户端的请求；而面向上游的源服务器时，又表现为客户端，代表客户端发送请求。</p>
+<ul>
+<li>反向代理：它在传输链路中更靠近源服务器，为源服务器提供代理服务。</li>
+<li>正向代理：</li>
+</ul>
+<p>至理名言：“计算机科学领域里的任何问题，都可以通过引入一个中间层来解决”</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="代理的作用">代理的作用<a href="#代理的作用" class="hash-link" aria-label="代理的作用的直接链接" title="代理的作用的直接链接">​</a></h3>
+<p>代理最基本的一个功能是负载均衡，代理中常用的负载均衡算法比如轮询、一致性哈希等等，这些算法的目标都是尽量把外部的流量合理地分散到多台源服务器，提高系统的整体资源利用率和性能。</p>
+<p>在负载均衡的同时，代理服务还可以执行更多的功能，比如：</p>
+<ul>
+<li>健康检查：使用“心跳”等机制监控后端服务器，发现有故障就及时“踢出”集群，保证服务高可用；</li>
+<li>安全防护：保护被代理的后端服务器，限制 IP 地址或流量，抵御网络攻击和过载；</li>
+<li>加密卸载：对外网使用 SSL/TLS 加密通信认证，而在安全的内网不加密，消除加解密成本；</li>
+<li>数据过滤：拦截上下行的数据，任意指定策略修改请求或者响应；</li>
+<li>内容缓存：暂存、复用服务器响应</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="代理相关头字段">代理相关头字段<a href="#代理相关头字段" class="hash-link" aria-label="代理相关头字段的直接链接" title="代理相关头字段的直接链接">​</a></h3>
+<p>首先，代理服务器需要用字段“Via”标明代理的身份。Via 是一个通用字段，请求头或响应头里都可以出现。如果通信链路中有很多中间代理，就会在 Via 里形成一个链表，这样就可以知道报文究竟走过了多少个环节才到达了目的地。</p>
+<p>“X-Forwarded-For”的字面意思是“为谁而转发”，形式上和“Via”差不多，也是每经过一个代理节点就会在字段里追加一个信息。但“Via”追加的是代理主机名（或 者域名），而“X-Forwarded-For”追加的是请求方的 IP 地址。所以，在字段里最左边的 IP 地址就客户端的地址。</p>
+<p>“X-Real-IP”是另一种获取客户端真实 IP 的手段，它的作用很简单，就是记录客户端 IP 地址，没有中间的代理信息，相当于是“X-Forwarded-For”的简化版。如果客户端和源服务器之间只有一个代理，那么这两个字段的值就是相同的。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="代理协议">代理协议<a href="#代理协议" class="hash-link" aria-label="代理协议的直接链接" title="代理协议的直接链接">​</a></h3>
+<p>专门的“代理协议”可以在不改动原始报文的情况下传递客户端的真实 IP</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-的缓存代理">HTTP 的缓存代理<a href="#http-的缓存代理" class="hash-link" aria-label="HTTP 的缓存代理的直接链接" title="HTTP 的缓存代理的直接链接">​</a></h2>
+<p>服务器端的“Cache-Control”属性：private”表示缓存只能在客户端保存，是用户“私有”的，不能放在代理上与别人共享。而“public”的意思就是缓存完全开放，谁都可以存，谁都可以用。</p>
+<ul>
+<li>计算机领域里最常用的性能优化手段是“时空转换”，也就是“时间换空间”或者“空间换时间”，HTTP 缓存属于后者；</li>
+<li>缓存代理是增加了缓存功能的代理服务，缓存源服务器的数据，分发给下游的客户端；</li>
+<li>“Cache-Control”字段也可以控制缓存代理，常用的有“private”“s-maxage”“no-transform”等，同样必须配合“Last-modified”“ETag”等字段才能使用；</li>
+<li>缓存代理有时候也会带来负面影响，缓存不良数据，需要及时刷新或删除。</li>
+</ul>
+<h1>安全</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="https-是什么ssltls-又是什么">HTTPS 是什么？SSL/TLS 又是什么？<a href="#https-是 什么ssltls-又是什么" class="hash-link" aria-label="HTTPS 是什么？SSL/TLS 又是什么？的直接链接" title="HTTPS 是什么？SSL/TLS 又是什么？的直接链接">​</a></h2>
+<p>###为什么要有 HTTPS？</p>
+<p>因为 HTTP “不安全”，由于 HTTP 天生“明文”的特点，整个传输过程完全透明，任何人都能够在链路中截获、修改或者伪造请求/响应报文，数据不具有可信性。</p>
+<p>###什么是安全？</p>
+<p>如果通信过程具备了四个特性，就可以认为是“安全”的，这四个特性是：机密性、完整性，身份认证和不可否认。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="什么是-https">什么是 HTTPS？<a href="#什么是-https" class="hash-link" aria-label="什么是 HTTPS？的直接链接" title="什么是 HTTPS？的直接链接">​</a></h3>
+<p>协议名“https”，默认端口号 443，其他的什么请求 - 应答模式、报文结构、请求方法、URI、头字段、连接管理等等都完全沿用 HTTP。</p>
+<p>把 HTTP 下层的传输协议由 TCP/IP 换成了 SSL/TLS，由“HTTP over TCP/IP”变成了“HTTP over SSL/TLS”，让 HTTP 运行在了安全的 SSL/TLS 协议上，收发报文不再使用 Socket API，而是调用专门的安全接口。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ssltls">SSL/TLS<a href="#ssltls" class="hash-link" aria-label="SSL/TLS的直接链接" title="SSL/TLS的直接链接">​</a></h3>
+<p>SSL 即安全套接层（Secure Sockets Layer），在 OSI 模型中处于第 5 层（会话层）。SSL/TLS 是信息安全领域中的权威标准，采用多种先进的加密技术保证通信安全；</p>
+<p>“握手时使用 ECDHE 算法进行密钥交换，用 RSA 签名和身份认证，握手后的通信使用 AES 对称算法，密钥长度 256 位，分组模式是 GCM，摘要算法 SHA384 用于消息认证和产生随机数。”</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openssl">OpenSSL<a href="#openssl" class="hash-link" aria-label="OpenSSL的直接链接" title="OpenSSL的直接链接">​</a></h3>
+<p>著名的开源密码学程序库和工具包，几乎支持所有公开的加密算法和协议，已经成为了事实上的标准。OpenSSL 是著名的开源密码学工具包，是 SSL/TLS 的具体实现。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="对称加密与非对称加密">对称加密与非对称加密<a href="#对称加密与非对称加密" class="hash-link" aria-label="对称加密与非对称加密的直接链接" title="对称加密与非对称加密的直接链接">​</a></h2>
+<p>对称加密：“对称加密”很好理解，就是指加密和解密时使用的密钥都是同一个，是“对称”的。只要保证了密钥的安全，那整个通信过程就可以说具有了机密性。常用的有 AES 和 ChaCha20。</p>
+<p>如何把密钥安全地传递给对方，术语叫“密钥交换”？</p>
+<p>非对称加密（也叫公钥加密算法）：它有两个密钥，一个叫“公钥”（public key），一个叫“私钥”（private key）。两个密钥是不同的，“不对称”，公钥可以公开给任何人使用，而私钥必须严格保密。公钥和私钥有个特别的“单向”性，虽然都可以用来加密解密，但公钥加密后只能用私钥解密，反过来，私钥加密后也只能用公钥解密。常用的有 RSA 和 ECC；</p>
+<p>如果仅用非对称加密，虽然保证了安全，但通信速度有如乌龟、蜗牛，实用性就变成了零。</p>
+<p>混合加密：把对称加密和非对称加密结合起来呢，两者互相取长补短，即能高效地加密解密，又能安全地密钥交换。就是现在 TLS 里使用的混合加密方式。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="数字签名与证书">数字签名与证书<a href="#数字签名与证书" class="hash-link" aria-label="数字签名与证书的直接链接" title="数字签名与证书的直接链接">​</a></h2>
+<p>黑客能伪造身份发布公钥。如果你拿到了假的公钥，混合加密就完全失效了。所以，在机密性的基础上还必须加上完整性、身份认证等特性，才能实现真正的安全。</p>
+<p>实现完整性的手段主要是摘要算法（Digest Algorithm），也就是常说的散列函数、哈希函数（Hash Function）。</p>
+<p>因为摘要算法对输入具有“单向性”和“雪崩效应”，输入的微小不同会导致输出的剧烈变化，所以也被 TLS 用来生成伪随机数（PRF，pseudo random function）。常用算法：MD5（Message-Digest 5）、SHA-1（Secure Hash Algorithm 1）。目前 TLS 推荐使用的是 SHA-1 的后继者：SHA-2。</p>
+<p>数字签名
+加密算法结合摘要算法，我们的通信过程可以说是比较安全了。但这里还有漏洞，就是通信的两个端点（endpoint）。就是非对称加密里的“私钥”，使用私钥再加上摘要算法，就能够实现“数字签名”，同时实现“身份认证”和“不可否认”。</p>
+<p>概括为四点：</p>
+<ul>
+<li>摘要算法用来实现完整性，能够为数据生成独一无二的“指纹”，常用的算法是 SHA-2；</li>
+<li>数字签名是私钥对摘要的加密，可以由公钥解密后验证，实现身份认证和不可否认；</li>
+<li>公钥的分发需要使用数字证书，必须由 CA 的信任链来验证，否则就是不可信的；</li>
+<li>作为信任链的源头 CA 有时也会不可信，解决办法有 CRL、OCSP，还有终止信任。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tls12-连接过程解析">TLS1.2 连接过程解析<a href="#tls12-连接过程解析" class="hash-link" aria-label="TLS1.2 连接过程解析的直接链接" title="TLS1.2 连接过程解析的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="https-建立连接">HTTPS 建立连接<a href="#https-建立连接" class="hash-link" aria-label="HTTPS 建立连接的直接链接" title="HTTPS 建立连接的直接链接">​</a></h3>
+<p>因  为协议名是“https”，所以浏览器就知道了端口号是默认的 443，它再用 DNS 解析域名，得到目标的 IP 地址，然后就可以使用三次握手与网站建立 TCP 连接了。
+在 HTTP 协议里，建立连接后，浏览器会立即发送请求报文。但现在是 HTTPS 协议，它需要再用另外一个“握手”过程，在 TCP 上建立安全连接，之后才是收发 HTTP 报文。</p>
+<p>ECDHE 握手过程（TLS 的握手过程）、RSA 握手</p>
+<ul>
+<li>HTTPS 协议会先与服务器执行 TCP 握手，然后执行 TLS 握手，才能建立安全连接；</li>
+<li>握手的目标是安全地交换对称密钥，需要三个随机数，第三个随机数“Pre-Master”必须加密传输，绝对不能让黑客破解；</li>
+<li>“Hello”消息交换随机数，“Key Exchange”消息交换“Pre-Master”；</li>
+<li>“Change Cipher Spec”之前传输的都是明文，之后都是对称密钥加密的密文。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tls13-特性解析">TLS1.3 特性解析<a href="#tls13-特性解析" class="hash-link" aria-label="TLS1.3 特性解析的直接链接" title="TLS1.3 特性解析的直接链接">​</a></h2>
+<p>主要改进目标：兼容、安全与性能。</p>
+<ul>
+<li>为了兼容 1.1、1.2 等“老”协议，TLS1.3 会“伪装”成 TLS1.2，新特性在“扩展”里实现；</li>
+<li>1.1、1.2 在实践中发现了很多安全隐患，所以 TLS1.3 大幅度删减了加密算法，只保留了 ECDHE、AES、ChaCha20、SHA-2 等极少数算法，强化了安全；</li>
+<li>TLS1.3 也简化了握手过程，完全握手只需要一个消息往返，提升了性能。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="https-的优化">HTTPS 的优化<a href="#https-的优化" class="hash-link" aria-label="HTTPS 的优化的直接链接" title="HTTPS 的优化的直接链接">​</a></h2>
+<p>HTTPS 连接大致上可以划分为两个部分，第一个是建立连接时的非对称加密握手，第二个是握手后的对称加密报文传输</p>
+<ul>
+<li>硬件优化：更快的 CPU、SSL 加速卡（Tengine）、SSL 加速服务器</li>
+<li>软件优化：一个是软件升级（Linux、Nginx、OpenSSL），一个是协议优化（TLS1.3、ECDHE 算法）</li>
+<li>证书优化：一个是证书传输（选择椭圆曲线（ECDSA）证书），一个是证书验证（OCSP 装订）。</li>
+<li>会话复用：分两种，一种叫“Session ID”，第二种 会话票证 “Session Ticket”方案。</li>
+<li>预共享密钥：“Pre-shared Key”，简称为“PSK”。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小结">小结<a href="#小结" class="hash-link" aria-label="小结的直接链接" title="小结的直接链接">​</a></h2>
+<ul>
+<li>可以有多种硬件和软件手段减少网络耗时和计算耗时，让 HTTPS 变得和 HTTP 一样快，最可行的是软件优化；</li>
+<li>应当尽量使用 ECDHE 椭圆曲线密码套件，节约带宽和计算量，还能实现“False Start”；</li>
+<li>服务器端应当开启“OCSP Stapling”功能，避免客户端访问 CA 去验证证书；</li>
+<li>会话复用的效果类似 Cache，前提是客户端必须之前成功建立连接，后面就可以用“Session ID”“Session Ticket”等凭据跳过密钥交换、证书验证等步骤，直接开始加密通信。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="是否迁移到-https">是否迁移到 HTTPS<a href="#是否迁移到-https" class="hash-link" aria-label="是否迁移到 HTTPS的直接链接" title="是否迁移到 HTTPS的直接链接">​</a></h2>
+<ul>
+<li>从 HTTP 迁移到 HTTPS 是“大势所趋”，能做就应该尽早做；</li>
+<li>升级 HTTPS 首先要申请数字证书，可以选择免费好用的“Let’s Encrypt”；</li>
+<li>配置 HTTPS 时需要注意选择恰当的 TLS 版本和密码套件，强化安全；</li>
+<li>原有的 HTTP 站点可以保留作为过渡，使用 301 重定向到 HTTPS。</li>
+</ul>
+<h1>HTTP/2</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http2-特性概览">HTTP/2 特性概览<a href="#http2-特性概览" class="hash-link" aria-label="HTTP/2 特性概览的直接链接" title="HTTP/2 特性概览的直接链接">​</a></h2>
+<p>HTTP 在引入 SSL/TLS 在安全上达到了“极致”，但在性能提升方面却是乏善可陈，只优化了握手加密的环节，对于整体的数据传输没有提出更好的改进方案，还只能依赖于“长连接”这种“落后”的技术</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="兼容-http1">兼容 HTTP/1<a href="#兼容-http1" class="hash-link" aria-label="兼容 HTTP/1的直接链接" title="兼容 HTTP/1的直接链接">​</a></h3>
+<p>HTTP/2 把 HTTP 分解成了“语义”和“语法”两个部分，“语义”层不做改动，与 HTTP/1 完全一致（即 RFC7231）。比如请求方法、URI、状态码、头字段等概念都保留不变，这样就消除了再学习的成本，基于 HTTP 的上层应用也不需要做任何修改，可以无缝转换到 HTTP/2。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="头部压缩">头部压缩<a href="#头部压缩" class="hash-link" aria-label="头部压缩的直接链接" title="头部压缩的直接链接">​</a></h3>
+<p>开发了专门的“HPACK”算法，在客户端和服务器两端建立“字典”，用索引号表示重复的字符串，还釆用哈夫曼编码来压缩整数和字符串，可以达到 50%～ 90% 的高压缩率。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="二进制格式">二进制格式<a href="#二进制格式" class="hash-link" aria-label="二进制格式的直接链接" title="二进制格式的直接链接">​</a></h3>
+<p>报文不再使用肉眼可见的 ASCII 码，而是向下层的 TCP/IP 协议“靠拢”，全面采用二进制格式。解析起来没有歧义，实现简单，而且体积小、速度快，做到“内部提效”。</p>
+<p>把 TCP 协议的部分特性挪到了应用层，把原来的“Header+Body”的消息“打散”为数个小片的二进制“帧”（Frame），用“HEADERS”帧存放头数据、“DATA”帧存放实体数据。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="虚拟的流多路复用">虚拟的“流”（多路复用）<a href="#虚拟的流多路复用" class="hash-link" aria-label="虚拟的“流”（多路复用）的直接链接" title="虚拟的“流”（多路复用）的直接链接">​</a></h3>
+<p>消息的“碎片”到达目的地后应该怎么组装起来呢？</p>
+<p>HTTP/2 为此定义了一个“流”（Stream）的概念，它是二进制帧的双向传输序列，同一个消息往返的帧会分配一个唯一的流 ID。你可以把它想象成是一个虚拟的“数据流”，在里面流动的是一串有先后顺序的数据帧，这些数据帧按照次序组装起来就是 HTTP/1 里的请求报文和响应报文。</p>
+<p>因为“流”是虚拟的，实际上并不存在，所以 HTTP/2 就可以在一个 TCP 连接上用“流”同时发送多个“碎片化”的消息，这就是常说的“多路复用”（ Multiplexing）——多个往返通信都复用一个连接来处理。</p>
+<p>在“流”的层面上看，消息是一些有序的“帧”序列，而在“连接”的层面上看，消息却是乱序收发的“帧”。多个请求/响应之间没有了顺序关系，不需要排队等待，也就不会再出现“队头阻塞”问题，降低了延迟，大幅度提高了连接的利用率。</p>
+<p>为了更好地利用连接，加大吞吐量，HTTP/2 还添加了一些控制帧来管理虚拟的“流”，实现了<strong>优先级和流量控制</strong>，这些特性也和 TCP 协议非常相似。</p>
+<p>HTTP/2 还在一定程度上改变了传统的“请求 - 应答”工作模式，服务器不再是完全被动地响应请求，也可以新建“流”主动向客户端发送消息。比如，在浏览器刚请求 HTML 的时候就提前把可能会用到的 JS、CSS 文件发给客户端，减少等待的延迟，这被称为“服务器推送”（Server Push，也叫 Cache Push）。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="强化安全">强化安全<a href="#强化安全" class="hash-link" aria-label="强化安全的直接链接" title="强化安全的直接链接">​</a></h3>
+<p>主流的浏览器公开宣布只支持加密的 HTTP/2，所以“事实上”的 HTTP/2 是加密的。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="协议栈">协议栈<a href="#协议栈" class="hash-link" aria-label="协议栈的直接链接" title="协议栈的直接链接">​</a></h3>
+<p>HTTP/2 是建立在“HPack”“Stream”“TLS1.2”基础之上。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="小结-1">小结<a href="#小结-1" class="hash-link" aria-label="小结的直接链接" title="小结的直接链接">​</a></h3>
+<ul>
+<li>HTTP 协议取消了小版本号，所以 HTTP/2 的正式名字不是 2.0；</li>
+<li>HTTP/2 在“语义”上兼容 HTTP/1，保留了请求方法、URI 等传统概念；</li>
+<li>HTTP/2 使用“HPACK”算法压缩头部信息，消除冗余数据节约带宽；</li>
+<li>HTTP/2 的消息不再是“Header+Body”的形式，而是分散为多个二进制“帧”；</li>
+<li>HTTP/2 使用虚拟的“流”传输消息，解决了困扰多年的“队头阻塞”问题，同时实现了“多路复用”，提高连接的利用率；</li>
+<li>HTTP/2 也增强了安全性，要求至少是 TLS1.2，而且禁用了很多不安全的密码套件。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http2-内核剖析">HTTP/2 内核剖析<a href="#http2-内核剖析" class="hash-link" aria-label="HTTP/2 内核剖析的直接链接" title="HTTP/2 内核剖析的直接链接">​</a></h2>
+<ul>
+<li>HTTP/2 必须先发送一个“连接前言”字符串，然后才能建立正式连接；</li>
+<li>HTTP/2 废除了起始行，统一使用头字段，在两端维护字段“Key-Value”的索引表，使用“HPACK”算法压缩头部；</li>
+<li>HTTP/2 把报文切分为多种类型的二进制帧，报头里最重要的字段是流标识符，标记帧属于哪个流；</li>
+<li>流是 HTTP/2 虚拟的概念，是帧的双向传输序列，相当于 HTTP/1 里的一次“请求 - 应答”；</li>
+<li>在一个 HTTP/2 连接上可以并发多个流，也就是多个“请求 - 响应”报文，这就是“多路复用”。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http3-展望">HTTP/3 展望<a href="#http3-展望" class="hash-link" aria-label="HTTP/3 展望的直接链接" title="HTTP/3 展望的直接链接">​</a></h2>
+<p>HTTP/2 虽然使用“帧”“流”“多路复用”，没有了“队头阻塞”，但这些手段都是在应用层里，而在下层，也就是 TCP 协议里，还是会发生“队头阻塞”。（TCP 为了保证可靠传输，有个特别的“丢包重传”机制）。</p>
+<p>“HTTP over QUIC”（让 HTTP 跑在 QUIC 上而不是 TCP 上）就是 HTTP 协议的下一个大版本，HTTP/3。真正“完美”地解决了“队头阻塞”问题。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="quic-协议">QUIC 协议<a href="#quic-协议" class="hash-link" aria-label="QUIC 协议的直接链接" title="QUIC 协议的直接链接">​</a></h3>
+<p>HTTP/3 有一个关键的改变，它把下层的 TCP“抽掉”了，换成了 UDP。因为 UDP 是无序的，包之间没有依赖关系，所以就从根本上解决 了“队头阻塞”。</p>
+<p>两个内部的关键知识点。</p>
+<p>QUIC 的基本数据传输单位是包（packet）和帧（frame），一个包由多个帧组成，包面向的是“连接”，帧面向的是“流”。</p>
+<p>QUIC 使用不透明的“连接 ID”来标记通信的两个端点，客户端和服务器可以自行选择一组 ID 来标记自己，这样就解除了 TCP 里连接对“IP 地址 + 端口”（即常说的四元组）的强绑定，支持“连接迁移”（Connection Migration）。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="http3-协议">HTTP/3 协议<a href="#http3-协议" class="hash-link" aria-label="HTTP/3 协议的直接链接" title="HTTP/3 协议的直接链接">​</a></h3>
+<p>因为 QUIC 本身就已经支持了加密、流和多路复用，所以 HTTP/3 的工作减轻了很多，把流控制都交给 QUIC 去做。调用的不再是 TLS 的安全接口，也不是 Socket API，而是专门的 QUIC 函数。不过这个“QUIC 函数”还没有形成标准，必须要绑定到某一个具体的实现库。</p>
+<p>HTTP/3 里仍然使用流来发送“请求 - 响应”，但它自身不需要像 HTTP/2 那样再去定义流，而是直接使用 QUIC 的流，相当于做了一个“概念映射”。</p>
+<p>HTTP/3 里的“双向流”可以完全对应到 HTTP/2 的流，而“单向流”在 HTTP/3 里用来实现控制和推送，近似地对应 HTTP/2 的 0 号流。</p>
+<p>由于流管理被“下放”到了 QUIC，所以 HTTP/3 里帧的结构也变简单了。</p>
+<p>帧头只有两个字段：类型和长度，而且同样都采用变长编码，最小只需要两个字节。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="http3-服务发现">HTTP/3 服务发现<a href="#http3-服务发现" class="hash-link" aria-label="HTTP/3 服务发现的直接链接" title="HTTP/3 服务发现的直接链接">​</a></h3>
+<p>要用到 HTTP/2 里的“扩展帧”了。浏览器需要先用 HTTP/2 协议连接服务器，然后服务器可以在启动 HTTP/2 连接后发送一个“Alt-Svc”帧，包含一个“h3=host<!-- -->:port<!-- -->”的字符串，告诉浏览器在另一个端点上提供等价的 HTTP/3 服务。</p>
+<p>浏览器收到“Alt-Svc”帧，会使用 QUIC 异步连接指定的端口，如果连接成功，就会断开 HTTP/2 连接，改用新的 HTTP/3 收发数据。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="总结">总结<a href="#总结" class="hash-link" aria-label="总结的直接链接" title="总结的直接链接">​</a></h3>
+<ul>
+<li>HTTP/3 基于 QUIC 协议，完全解决了“队头阻塞”问题，弱网环境下的表现会优于 HTTP/2；</li>
+<li>QUIC 是一个新的传输层协议，建立在 UDP 之上，实现了可靠传输；</li>
+<li>QUIC 内含了 TLS1.3，只能加密通信，支持 0-RTT 快速建连；</li>
+<li>QUIC 的连接使用“不透明”的连接 ID，不绑定在“IP 地址 + 端口”上，支持“连接迁移”；</li>
+<li>QUIC 的流与 HTTP/2 的流很相似，但分为双向流和单向流；</li>
+<li>HTTP/3 没有指定默认端口号，需要用 HTTP/2 的扩展帧“Alt-Svc”来发现。</li>
+</ul>
+<ol>
+<li>IP 协议要比 UDP 协议省去 8 个字节的成本，也更通用，QUIC 为什么不构建在 IP 协议之上呢？(传输层 TCP 和 UDP 就够了，在多加会提高复杂度，基于 UDP 向前兼容会好一些。)</li>
+<li>说一说你理解的 QUIC、HTTP/3 的好处。(在传输层解决了队首阻塞，基于 UDP 协议，在网络拥堵的情况下，提高传输效率)</li>
+<li>对比一下 HTTP/3 和 HTTP/2 各自的流、帧，有什么相同点和不同点。(http3 在传输层基于 UDP 真正解决了队头阻塞。http2 只是部分解决。)</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="应该迁移到-http2-吗">应该迁移到 HTTP/2 吗？<a href="#应该迁移到-http2-吗" class="hash-link" aria-label="应该迁移到 HTTP/2 吗？的直接链接" title="应该迁移到 HTTP/2 吗？的直接链接">​</a></h2>
+<p>HTTP/2 在互联网上还是处于“不温不火”的状态</p>
+<ul>
+<li>优化方面，HTTPS 的一些策略依然适用，比如精简密码套件、ECC 证书、会话复用、HSTS 减少重定向跳转等等。</li>
+<li>但还有一些优化手段在 HTTP/2 里是不适用的，而且还会有反效果，比如说常见的精灵图（Spriting）、资源内联（inlining）、域名分片（Sharding）等。<!-- -->
+<ul>
+<li>因为 HTTP/2 中使用小颗粒化的资源，优化了缓存，而使用精灵图就相当于传输大文件，但是大文件会延迟客户  端的处理执行，并且缓存失效的开销很昂贵，很少数量的数据更新就会使整个精灵图失效，需要重新下载(http1 中使用精灵图是为了减少请求)；</li>
+<li>HTTP1 中使用内联资源也是为了减少请求，内联资源没有办法独立缓存，破坏了 HTTP/2 的多路复用和优先级策略；</li>
+<li>域名分片在 HTTP1 中是为了突破浏览器每个域名下同时连接数，但是这在 HTTP/2 中使用多路复用解决了这个问题，如果使用域名分片反而会限制 HTTP2 的自由发挥。</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="http2-的优点">HTTP/2 的优点<a href="#http2-的优点" class="hash-link" aria-label="HTTP/2 的优点的直接链接" title="HTTP/2 的优点的直接链接">​</a></h3>
+<ul>
+<li>HTTP/2 最大的一个优点是完全保持了与 HTTP/1 的兼容。（安全与性能兼顾，可以认为是“更安全的 HTTP、更快的 HTTPS”）</li>
+<li>在安全上，HTTP/2 对 HTTPS 在各方面都做了强化</li>
+<li>HTTP/2 在性能方面的改进。影响网络速度的两个关键因素是“带宽”和“延迟”，HTTP/2 的头部压缩、多路复用、流优先级、服务器推送等其实都是针对这两点。<!-- -->
+<ul>
+<li>HTTP/2 的“多路复用”特性要求对一个域名（或者 IP）只用一个 TCP 连接。（可以把带宽跑满）</li>
+<li>不过流可能会有依赖关系，可能会存在等待导致的阻塞，这就是“延迟”，所以 HTTP/2 的其他特性就派上了用场。“优先级”可以让客户端告诉服务器合理地分配有限的带宽资源。</li>
+<li>“服务器推送”也是降低延迟的有效手段，它不需要客户端预先请求，服务器直接就发给客户端，这就省去了客户端解析 HTML 再请求的时间。</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="http2-的缺点">HTTP/2 的缺点<a href="#http2-的缺点" class="hash-link" aria-label="HTTP/2 的缺点的直接链接" title="HTTP/2 的缺点的直接链接">​</a></h3>
+<ul>
+<li>HTTP/2 在 TCP 级别还是存在“队头阻塞”的问题。所以，如果网络连接质量差，发生丢包，那么 TCP 会等待重传，传输速度就会降低。</li>
+<li>在移动网络中发生 IP 地址切换的时候，下层的 TCP 必须重新建连，要再次“握手”，经历“慢启动”，而且之前连接里积累的 HPACK 字典也都消失了，必须重头开始计算，导致带宽浪费和时延。</li>
+<li>HTTP/2 对一个域名只开一个连接，所以一旦这个连接出问题，那么整个网站的体验也变差。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="总结-1">总结<a href="#总结-1" class="hash-link" aria-label="总结的直接链接" title="总结的直接链接">​</a></h3>
+<ul>
+<li>HTTP/2 完全兼容 HTTP/1，是“更安全的 HTTP、更快的 HTTPS”，头部压缩、多路复用等技术可以充分利用带宽，降低延迟，从而大幅度提高上网体验；</li>
+<li>TCP 协议存在“队头阻塞”，所以 HTTP/2 在弱网或者移动网络下的性能表现会不如 HTTP/1；</li>
+<li>迁移到 HTTP/2 肯定会有性能提升，但高流量网站效果会更显著；</li>
+<li>如果已经升级到了 HTTPS，那么再升级到 HTTP/2 会很简单；</li>
+<li>TLS 协议提供“ALPN”扩展，让客户端和服务器协商使用的应用层协议，“发现”HTTP/2 服务。</li>
+</ul>
+<h1>服务器</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nginx">Nginx<a href="#nginx" class="hash-link" aria-label="Nginx的直接链接" title="Nginx的直接链接">​</a></h2>
+<p>Nginx 是个“轻量级”的 Web 服务器，它的 CPU、内存占用都非常少，同样的资源配置下就能够为更多的用户提供服务，其奥秘在于它独特的工作模式。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="进程池">进程池<a href="#进程池" class="hash-link" aria-label="进程池的直接链接" title="进程池的直接链接">​</a></h3>
+<ul>
+<li>在 Nginx 之前，Web 服务器对每一个请求使用单独的进程或者线程处理，如果请求数量很多，CPU 就会在多个进程、线程之间切换。</li>
+<li>Nginx 使用了“进程池 + 单线程”的工作模式，Nginx 在启动的时候会预先创建好固定数量的 worker 进程，在之后的运行过程中不会再 fork 出新进程，这就是进程池。在进程池之上，还有一个“master”进程，专门用来管理进程池。用来监控进程，自动恢复发生异常的 worker，保持进程池的稳定和服务能力。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="io-多路复用">I/O 多路复用<a href="#io-多路复用" class="hash-link" aria-label="I/O 多路复用的直接链接" title="I/O 多路复用的直接链接">​</a></h3>
+<p>为什么单线程的 Nginx，处理能力却能够超越其他多线程的服务器呢？这要归功于 Nginx 利用了 Linux 内核里的一件“神兵利器”，<strong>I/O 多路复用接口</strong>，“大名鼎鼎”的 epoll。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="多阶段处理">多阶段处理<a href="#多阶段处理" class="hash-link" aria-label="多阶段处理的直接链接" title="多阶段处理的直接链接">​</a></h3>
+<p>Nginx 在内部也采用的是“化整为零”的思路，把整个 Web 服务器分解成了多个“功能模块”，可以在配置文件里任意拼接搭建，从而实现了高度的灵活性和扩展性。</p>
+<p>Nginx 的 HTTP 处理有四大类模块：</p>
+<ol>
+<li>handler 模块：直接处理 HTTP 请求；</li>
+<li>filter 模块：不直接处理请求，而是加工过滤响应报文；</li>
+<li>upstream 模块：实现反向代理功能，转发请求到其他服务器；</li>
+<li>balance 模块：实现反向代理时的负载均衡算法。</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="总结-2">总结<a href="#总结-2" class="hash-link" aria-label="总结的直接链接" title="总结的直接链  接">​</a></h3>
+<ul>
+<li>Nginx 是一个高性能的 Web 服务器，它非常的轻量级，消耗的 CPU、内存很少；</li>
+<li>Nginx 采用“master/workers”进程池架构，不使用多线程，消除了进程、线程切换的成本；</li>
+<li>Nginx 基于 epoll 实现了“I/O 多路复用”，不会阻塞，所以性能很高；</li>
+<li>Nginx 使用了“职责链”模式，多个模块分工合作，自由组合，以流水线的方式处理 HTTP 请求。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="openresty更灵活的-web-服务器">OpenResty：更灵活的 Web 服务器<a href="#openresty更灵活的-web-服务器" class="hash-link" aria-label="OpenResty：更灵活的 Web 服务器的直接链接" title="OpenResty：更灵活的 Web 服务器的直接链接">​</a></h2>
+<ul>
+<li>Nginx 依赖于磁盘上的静态配置文件，修改后必须重启才能生效，缺乏灵活性；</li>
+<li>OpenResty 基于 Nginx，打包了很多有用的模块和库，是一个高性能的 Web 开发平台；</li>
+<li>OpenResty 的工作语言是 Lua，它小巧灵活，执行效率高，支持“代码热加载”（ngx_lua）；</li>
+<li>OpenResty 的核心编程范式是“同步非阻塞”，使用协程，不需要异步回调函数；</li>
+<li>OpenResty 也使用“阶段式处理”的工作模式，但因为在阶段里执行的都是 Lua 代码，所以非常灵活，配合 Redis 等外部数据库能够实现各种动态配置。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="waf保护我们的网络服务">WAF：保护我们的网络服务<a href="#waf保护我们的网络服务" class="hash-link" aria-label="WAF：保护我们的网络服务的直接链接" title="WAF：保护我们的网络服务的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="web-服务遇到的威胁">Web 服务遇到的威胁<a href="#web-服务遇到的威胁" class="hash-link" aria-label="Web 服务遇到的威胁的直接链接" title="Web 服务遇到 的威胁的直接链接">​</a></h3>
+<ul>
+<li>“DDoS”攻击（distributed denial-of-service attack），也叫“洪水攻击”。黑客会控制许多“僵尸”计算机，向目标服务器发起大量无效请求。</li>
+<li>“HTTP 头注入”攻击的方式也是类似的原理，它在“Host”“User-Agent”“X-Forwarded-For”等字段里加入了恶意数据或代码，服务端程序如果解析不当，就会执行预设的恶意代码。</li>
+<li>“SQL 注入”（SQL injection），它利用了服务器字符串拼接形成 SQL 语句的漏洞，构造出非正常的 SQL 语句，获取数据库内部的敏感信息。</li>
+<li>“HTTP 头注入”攻击的方式也是类似的原理，它在“Host”“User-Agent”“X-Forwarded-For”等字段里加入了恶意数据或代码，服务端程序如果解析不当，就会执行预设的恶意代码。</li>
+<li>“跨站脚本”（XSS）</li>
+<li>“跨站请求伪造”（CSRF）</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="网络应用防火墙">网络应用防火墙<a href="#网络应用防火墙" class="hash-link" aria-label="网络应用防火墙的直接链接" title="网络应用防火墙的直接链接">​</a></h3>
+<p>防御要用到“网络应用防火墙”（Web Application Firewall）了，简称为“WAF”。说白了，WAF 就是一种“HTTP 入侵检测和防御系统”。</p>
+<p>WAF，要具备下面的一些功能：</p>
+<ul>
+<li>IP 黑名单和白名单，拒绝黑名单上地址的访问，或者只允许白名单上的用户访问；</li>
+<li>URI 黑名单和白名单，与 IP 黑白名单类似，允许或禁止对某些 URI 的访问；</li>
+<li>防护 DDoS 攻击，对特定的 IP 地址限连限速；</li>
+<li>过滤请求报文，防御“代码注入”攻击；</li>
+<li>过滤响应报文，防御敏感信息外泄；</li>
+<li>审计日志，记录所有检测到的入侵操作。</li>
+</ul>
+<p>工作原理：它就像是平时编写程序时必须要做的函数入口参数检查，拿 到 HTTP 请求、响应报文，用字符串处理函数看看有没有关键字、敏感词，或者用正则表达式做一下模式匹配，命中了规则就执行对应的动作，比如返回 403/404。</p>
+<p>实现：如果你比较熟悉 Apache、Nginx、OpenResty，可以自己改改配置文件，写点 JS 或者 Lua 代码，就能够实现基本的 WAF 功能。</p>
+<p>“木桶效应”（也叫“短板效应”）。网站的整体安全不在于你加固的最强的那个方向，而是在于你可能都没有意识到的“短板”。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="全面的-waf-解决方案">全面的 WAF 解决方案<a href="#全面的-waf-解决方案" class="hash-link" aria-label="全面的 WAF 解决方案的直接链接" title="全面的 WAF 解决方案的直接链接">​</a></h3>
+<p>WAF 领域里的最顶级产品了：ModSecurity，它可以说是 WAF 界“事实上的标准”。是一个开源的、生产级的 WAF 工具包。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="小结-2">小结<a href="#小结-2" class="hash-link" aria-label="小结的直接链接" title="小结的直接链接">​</a></h3>
+<p>“网络应用防火墙”，也就是 WAF，使用它可以加固 Web 服务。</p>
+<ul>
+<li>Web 服务通常都运行在公网上，容易受到“DDoS”、“代码注入”等各种黑客攻击，影响正常的服务，所以必须要采取措施加以保护；</li>
+<li>WAF 是一种“HTTP 入侵检测和防御系统”，工作在七层，为 Web 服务提供全面的防护；</li>
+<li>ModSecurity 是一个开源的、生产级的 WAF 产品，核心组成部分是“规则引擎”和“规则集”，两者的关系有点像杀毒引擎和病毒特征库；</li>
+<li>WAF 实质上是模式匹配与数据过滤，所以会消耗 CPU，增加一些计算成本，降低服务能力，使用时需要在安全与性能之间找到一个“平衡点”。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cdn加速我们的网络服务">CDN：加速我们的网络服务<a href="#cdn加速我们的网络服务" class="hash-link" aria-label="CDN：加速我们的网络服务的直接链接" title="CDN：加速我们的网络服务的直接链接">​</a></h2>
+<p>协议方面：HTTPS 强化通信链路安全、HTTP/2 优化传输效率；</p>
+<p>应用方面：Nginx/OpenResty 提升网站服务能力，WAF 抵御网站入侵攻击；CDN（Content Delivery Network 或 Content Distribution Network），中文名叫“内容分发网络，在外部加速 HTTP 协议的服务。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cdn">CDN<a href="#cdn" class="hash-link" aria-label="CDN的直接链接" title="CDN的直接链接">​</a></h3>
+<p>它就是专门为解决“长距离”上网络访问速度慢而诞生的一种网络应用服务。从名字上看，CDN 有三个关键词：“<strong>内容</strong>”“<strong>分发</strong>”和“<strong>网络</strong>”。“最近的”一个 CDN 节点，术语叫“边缘节点”</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="小结-3">小结<a href="#小结-3" class="hash-link" aria-label="小结的直接链接" title="小结的直接链接">​</a></h3>
+<ul>
+<li>由于客观地理距离的存在，直连网站访问速度会很慢，所以就出现了 CDN；</li>
+<li>CDN 构建了全国、全球级别的专网，让用户就近访问专网里的边缘节点，降低了传输延迟，实现了网站加速；</li>
+<li>GSLB 是 CDN 的“大脑”，使用 DNS 负载均衡技术，智能调度边缘节点提供服务；</li>
+<li>缓存系统是 CDN 的“心脏”，使用 HTTP 缓存代理技术，缓存命中就返回给用户，否则就要回源。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="websocket沙盒里的-tcp">WebSocket：沙盒里的 TCP<a href="#websocket沙盒里的-tcp" class="hash-link" aria-label="WebSocket：沙盒里的 TCP的直接链接" title="WebSocket：沙盒里的 TCP的直接链接">​</a></h2>
+<p>“WebSocket”就是运行在“Web”，也就是 HTTP 上的 Socket 通信规范，提供与“TCP Socket”类似的功能，使用它就可以像“TCP Socket”一样调用下层协议栈，任意地收发数据。“WebSocket”是一种基于 TCP 的轻量级网络通信协议，在地位上是与 HTTP“平级”的。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="为什么要有-websocket">为什么要有 WebSocket<a href="#为什么要有-websocket" class="hash-link" aria-label="为什么要有 WebSocket的直接链接" title="为什么要有 WebSocket的直接链接">​</a></h3>
+<p>WebSocket 与 HTTP/2 一样，都是为了解决 HTTP 某方面的缺陷而诞生的。HTTP/2 针对的是“队头阻塞”，而 WebSocket 针对的是“请求 - 应答”通信模式。</p>
+<p>请求-应答”是一种“半双工”的通信模式，虽然可以双向收发数据，但同一时刻只能一个方向上有动作，传输效率低。更关键的一点，它是一种“被动”通信模式，服务器只能“被动”响应客户端的请求，无法主动向客户端发送数据。</p>
+<p>导致 HTTP 难以应用在动态页面、即时消息、网络游戏等要求“实时通信”的领域。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="websocket-的握手">WebSocket 的握手<a href="#websocket-的握手" class="hash-link" aria-label="WebSocket 的握手的直接链接" title="WebSocket 的握手的直接链接">​</a></h3>
+<p>利用了 HTTP 本身的“协议升级”特性，“伪装”成 HTTP，这样就能绕过浏览器沙盒、网络防火墙等等限制，这也是 WebSocket 与 HTTP 的另一个重要关联点。</p>
+<p>WebSocket 的握手是一个标准的 HTTP GET 请求，但要带上两个协议升级的专用头字段：</p>
+<ul>
+<li>“Connection: Upgrade”，表示要求协议“升级”；</li>
+<li>“Upgrade: websocket”，表示要“升级”成 WebSocket 协议。</li>
+</ul>
+<p>另外，为了防止普通的 HTTP 消息被“意外”识别成 WebSocket，握手消息还增加了两个额外的认证用头字段（所谓的“挑战”，Challenge）：</p>
+<ul>
+<li>Sec-WebSocket-Key：一个 Base64 编码的 16 字节随机数，作为简单的认证密钥；</li>
+<li>Sec-WebSocket-Version：协议的版本号，当前必须是 13。</li>
+</ul>
+<p>服务器收到 HTTP 请求报文，看到上面的四个字段，就知道这不是一个普通的 GET 请求，而是 WebSocket 的升级请求，于是就不走普通的 HTTP 处理流程，而是构造一个特殊的“101 Switching Protocols”响应报文，通知客户端，接下来就不用 HTTP 了，全改用 WebSocket 协议通信。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="小结-4">小结<a href="#小结-4" class="hash-link" aria-label="小结的直接链接" title="小结的直接链接">​</a></h3>
+<ul>
+<li>HTTP 的“请求 - 应答”模式不适合开发“实时通信”应用，效率低，难以实现动态页面，所以出现了 WebSocket；</li>
+<li>WebSocket 是一个“全双工”的通信协议，相当于对 TCP 做了一层“薄薄的包装”，让它运行在浏览器环境里；</li>
+<li>WebSocket 使用兼容 HTTP 的 URI 来发现服务，但定义了新的协议名“ws”和“wss”，端口号也沿用了 80 和 443；</li>
+<li>WebSocket 使用二进制帧，结构比较简单，特殊的地方是有个“掩码”操作，客户端发数据必须掩码，服务器则不用；</li>
+<li>WebSocket 利用 HTTP 协议实现连接握手，发送 GET 请求要求“协议升级”，握手过程中有个非常简单的认证机制，目的是防止误连接。</li>
+</ul>
+<h1>总结</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-性能优化面面观">HTTP 性能优化面面观<a href="#http-性能优化面面观" class="hash-link" aria-label="HTTP 性能优化面面观的直接链接" title="HTTP 性能优化面面观的直接链接">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="http-服务器">HTTP 服务器<a href="#http-服务器" class="hash-link" aria-label="HTTP 服务器的直接链接" title="HTTP 服务器的直接链接">​</a></h3>
+<p>服务器性能的主要指标有三个：吞吐量（requests per second）、并发数（concurrency）和响应时间（time per request）。</p>
+<ul>
+<li>吞吐量就是我们常说的 RPS，每秒的请求次数，也有叫 TPS、QPS，它是服务器最基本的性能指标，RPS 越高就说明服务器的性能越好。</li>
+<li>并发数反映的是服务器的负载能力，也就是服务器能够同时支持的客户端数量，当然也是越多越好，能够服务更多的用户。</li>
+<li>响应时间反映的是服务器的处理能力，也就是快慢程度，响应时间越短，单位时间内服务器就能够给越多的用户提供服务，提高吞吐量和并发数。</li>
+<li>除了上面的三个基本性能指标，服务器还要考虑 CPU、内存、硬盘和网卡等系统资源的占用程度，利用率过高或者过低都可能有问题。</li>
+</ul>
+<p>优化方向：合理利用系统资源，提高服务器的吞吐量和并发数，降低响应时间。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="http-客户端">HTTP 客户端<a href="#http-客户端" class="hash-link" aria-label="HTTP 客户端的直接链接" title="HTTP 客户端的直接链接">​</a></h3>
+<ul>
+<li>最基本的性能指标就是“延迟”（latency）。</li>
+<li>第二个因素是带宽</li>
+<li>第三个因素是 DNS 查询</li>
+<li>第四个因素是 TCP 握手</li>
+</ul>
+<p>优化方向：客户端 HTTP 性能优化的关键就是：降低延迟。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="http-传输链路">HTTP 传输链路<a href="#http-传输链路" class="hash-link" aria-label="HTTP 传输链路的直接链接" title="HTTP 传输链路的直接链接">​</a></h3>
+<p>使用 CDN</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="小结-5">小结<a href="#小结-5" class="hash-link" aria-label="小结的直接链接" title="小结的直接链接">​</a></h3>
+<ul>
+<li>性能优化是一  个复杂的概念，在 HTTP 里可以分解为服务器性能优化、客户端性能优化和传输链路优化；</li>
+<li>服务器有三个主要的性能指标：吞吐量、并发数和响应时间，此外还需要考虑资源利用率；</li>
+<li>客户端的基本性能指标是延迟，影响因素有地理距离、带宽、DNS 查询、TCP 握手等；</li>
+<li>从服务器到客户端的传输链路可以分为三个部分，我们能够优化的是前两个部分，也就是“第一公里”和“中间一公里”；</li>
+<li>有很多工具可以测量这些指标，服务器端有 ab、top、sar 等，客户端可以使用测试网站，浏览器的开发者工具。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="其他">其他<a href="#其他" class="hash-link" aria-label="其他的直接链接" title="其他的直接链接">​</a></h3>
+<ul>
+<li>花钱购买硬件、软件或者服务可以直接提升网站的服务能力，其中最有价值的是 CDN；</li>
+<li>不花钱也可以优化 HTTP，三个关键词是“开源”“节流”和“缓存”；</li>
+<li>后端应该选用高性能的 Web 服务器，开启长连接，提升 TCP 的传输效率；</li>
+<li>前端应该启用 gzip、br 压缩，减小文本、图片的体积，尽量少传不必要的头字段；</li>
+<li>缓存是无论何时都不能忘记的性能优化利器，应该总使用 Etag 或 Last-modified 字段标记资源；</li>
+<li>升级到 HTTP/2 能够直接获得许多方面的性能提升，但要留意一些 HTTP/1 的“反模式”。</li>
+</ul>
+<p>对于 HTTP/2 来说，一个域名使用一个 TCP 连接才能够获得最佳性能，如果开多个域名，就会浪费带宽和服务器资源，也会降低 HTTP/2 的效率，所以“域名收缩”在 HTTP/2 里是必须要做的。</p>
+<p>“资源合并”在 HTTP/1 里减少了多次请求的成本，但在 HTTP/2 里因为有头部压缩和多路复用，传输小文件的成本很低，所以合并就失去了意义。而且“资源合并”还有一个缺点，就是降低了缓存的可用性，只要一个小文件更新，整个缓存就完全失效，必须重新下载。</p>
+<p>所以在现在的大带宽和 CDN 应用场景下，应当尽量少用资源合并（JS、CSS 图片合并，数据内嵌），让资源的粒度尽可能地小，才能更好地发挥缓存的作用。</p>
+<p><a href="https://juejin.cn/post/6844904121510854664" target="_blank" rel="noopener noreferrer">「面试题」那些年与面试官交手过的 HTTP 问题</a></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/kenve/kenve.github.io/edit/docusaurus/docs/knowledge/computer-network.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>编辑此页</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="文件选项卡"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#域名" class="table-of-contents__link toc-highlight">域名</a></li><li><a href="#键入网址再按下回车后面究竟发生了什么" class="table-of-contents__link toc-highlight">键入网址再按下回车，后面究竟发生了什么？</a></li><li><a href="#http-报文是什么样" class="table-of-contents__link toc-highlight">HTTP 报文是什么样</a><ul><li><a href="#请求行" class="table-of-contents__link toc-highlight">请求行</a></li><li><a href="#状态行" class="table-of-contents__link toc-highlight">状态行</a></li><li><a href="#头部字段" class="table-of-contents__link toc-highlight">头部字段</a></li></ul></li><li><a href="#如何理解请求方法" class="table-of-contents__link toc-highlight">如何理解请求方法？</a><ul><li><a href="#安全与幂等" class="table-of-contents__link toc-highlight">安全与幂等</a></li></ul></li><li><a href="#网址" class="table-of-contents__link toc-highlight">网址</a></li><li><a href="#响应状态码" class="table-of-contents__link toc-highlight">响应状态码</a></li><li><a href="#http-有哪些特点" class="table-of-contents__link toc-highlight">HTTP 有哪些特点</a></li><li><a href="#http-有哪些优点又有哪些缺点" class="table-of-contents__link toc-highlight">HTTP 有哪些优点？又有哪些缺点</a></li><li><a href="#http-的实体数据" class="table-of-contents__link toc-highlight">HTTP 的实体数据</a><ul><li><a href="#数据类型与编码" class="table-of-contents__link toc-highlight">数据类型与编码</a></li></ul></li><li><a href="#http-传输大文件的方法" class="table-of-contents__link toc-highlight">HTTP 传输大文件的方法</a></li><li><a href="#http-的连接管理" class="table-of-contents__link toc-highlight">HTTP 的连接管理</a></li><li><a href="#http-的重定向和跳转" class="table-of-contents__link toc-highlight">HTTP 的重定向和跳转</a><ul><li><a href="#301-302-303-307-308" class="table-of-contents__link toc-highlight">301 302 303 307 308</a></li></ul></li><li><a href="#http-的-cookie-机制" class="table-of-contents__link toc-highlight">HTTP 的 Cookie 机制</a><ul><li><a href="#cookie-的工作过程" class="table-of-contents__link toc-highlight">Cookie 的工作过程</a></li><li><a href="#cookie-的应用" class="table-of-contents__link toc-highlight">Cookie 的应用</a></li></ul></li><li><a href="#http-的缓存控制" class="table-of-contents__link toc-highlight">HTTP 的缓存控制</a><ul><li><a href="#服务器缓存控制" class="table-of-contents__link toc-highlight">服务器缓存控制</a></li><li><a href="#客户端缓存控制" class="table-of-contents__link toc-highlight">客户端缓存控制</a></li><li><a href="#条件请求协商缓存" class="table-of-contents__link toc-highlight">条件请求（协商缓存）</a></li></ul></li><li><a href="#http-的代理服务" class="table-of-contents__link toc-highlight">HTTP 的代理服务</a><ul><li><a href="#代理服务" class="table-of-contents__link toc-highlight">代理服务</a></li><li><a href="#代理的作用" class="table-of-contents__link toc-highlight">代理的作用</a></li><li><a href="#代理相关头字段" class="table-of-contents__link toc-highlight">代理相关头字段</a></li><li><a href="#代理协议" class="table-of-contents__link toc-highlight">代理协议</a></li></ul></li><li><a href="#http-的缓存代理" class="table-of-contents__link toc-highlight">HTTP 的缓存代理</a></li><li><a href="#https-是什么ssltls-又是什么" class="table-of-contents__link toc-highlight">HTTPS 是什么？SSL/TLS 又是什么？</a><ul><li><a href="#什么是-https" class="table-of-contents__link toc-highlight">什么是 HTTPS？</a></li><li><a href="#ssltls" class="table-of-contents__link toc-highlight">SSL/TLS</a></li><li><a href="#openssl" class="table-of-contents__link toc-highlight">OpenSSL</a></li></ul></li><li><a href="#对称加密与非对称加密" class="table-of-contents__link toc-highlight">对称加密与非对称加密</a></li><li><a href="#数字签名与证书" class="table-of-contents__link toc-highlight">数字签名与证书</a></li><li><a href="#tls12-连接过程解析" class="table-of-contents__link toc-highlight">TLS1.2 连接过程解析</a><ul><li><a href="#https-建立连接" class="table-of-contents__link toc-highlight">HTTPS 建立连接</a></li></ul></li><li><a href="#tls13-特性解析" class="table-of-contents__link toc-highlight">TLS1.3 特性解析</a></li><li><a href="#https-的优化" class="table-of-contents__link toc-highlight">HTTPS 的优化</a></li><li><a href="#小结" class="table-of-contents__link toc-highlight">小结</a></li><li><a href="#是否迁移到-https" class="table-of-contents__link toc-highlight">是否迁移到 HTTPS</a></li><li><a href="#http2-特性概览" class="table-of-contents__link toc-highlight">HTTP/2 特性概览</a><ul><li><a href="#兼容-http1" class="table-of-contents__link toc-highlight">兼容 HTTP/1</a></li><li><a href="#头部压缩" class="table-of-contents__link toc-highlight">头部压缩</a></li><li><a href="#二进制格式" class="table-of-contents__link toc-highlight">二进制格式</a></li><li><a href="#虚拟的流多路复用" class="table-of-contents__link toc-highlight">虚拟的“流”（多路复用）</a></li><li><a href="#强化安全" class="table-of-contents__link toc-highlight">强化安全</a></li><li><a href="#协议栈" class="table-of-contents__link toc-highlight">协议栈</a></li><li><a href="#小结-1" class="table-of-contents__link toc-highlight">小结</a></li></ul></li><li><a href="#http2-内核剖析" class="table-of-contents__link toc-highlight">HTTP/2 内核剖析</a></li><li><a href="#http3-展望" class="table-of-contents__link toc-highlight">HTTP/3 展望</a><ul><li><a href="#quic-协议" class="table-of-contents__link toc-highlight">QUIC 协议</a></li><li><a href="#http3-协议" class="table-of-contents__link toc-highlight">HTTP/3 协议</a></li><li><a href="#http3-服务发现" class="table-of-contents__link toc-highlight">HTTP/3 服务发现</a></li><li><a href="#总结" class="table-of-contents__link toc-highlight">总结</a></li></ul></li><li><a href="#应该迁移到-http2-吗" class="table-of-contents__link toc-highlight">应该迁移到 HTTP/2 吗？</a><ul><li><a href="#http2-的优点" class="table-of-contents__link toc-highlight">HTTP/2 的优点</a></li><li><a href="#http2-的缺点" class="table-of-contents__link toc-highlight">HTTP/2 的缺点</a></li><li><a href="#总结-1" class="table-of-contents__link toc-highlight">总结</a></li></ul></li><li><a href="#nginx" class="table-of-contents__link toc-highlight">Nginx</a><ul><li><a href="# 进程池" class="table-of-contents__link toc-highlight">进程池</a></li><li><a href="#io-多路复用" class="table-of-contents__link toc-highlight">I/O 多路复用</a></li><li><a href="#多阶段处理" class="table-of-contents__link toc-highlight">多阶段处理</a></li><li><a href="#总结-2" class="table-of-contents__link toc-highlight">总结</a></li></ul></li><li><a href="#openresty更灵活的-web-服务器" class="table-of-contents__link toc-highlight">OpenResty：更灵活的 Web 服务器</a></li><li><a href="#waf保护我们的网络服务" class="table-of-contents__link toc-highlight">WAF：保护我们的网络服务</a><ul><li><a href="#web-服务遇到的威胁" class="table-of-contents__link toc-highlight">Web 服务遇到的威胁</a></li><li><a href="#网络应用防火墙" class="table-of-contents__link toc-highlight">网络应用防火墙</a></li><li><a href="#全面的-waf-解决方案" class="table-of-contents__link toc-highlight">全面的 WAF 解决方案</a></li><li><a href="#小结-2" class="table-of-contents__link toc-highlight">小结</a></li></ul></li><li><a href="#cdn加速我们的网络服务" class="table-of-contents__link toc-highlight">CDN：加速我们的网络服务</a><ul><li><a href="#cdn" class="table-of-contents__link toc-highlight">CDN</a></li><li><a href="#小结-3" class="table-of-contents__link toc-highlight">小结</a></li></ul></li><li><a href="#websocket沙盒里的-tcp" class="table-of-contents__link toc-highlight">WebSocket：沙盒里的 TCP</a><ul><li><a href="#为什么要有-websocket" class="table-of-contents__link toc-highlight">为什么要有 WebSocket</a></li><li><a href="#websocket-的握手" class="table-of-contents__link toc-highlight">WebSocket 的握手</a></li><li><a href="#小结-4" class="table-of-contents__link toc-highlight">小结</a></li></ul></li><li><a href="#http-性能优化面面观" class="table-of-contents__link toc-highlight">HTTP 性能优化面面观</a><ul><li><a href="#http-服务器" class="table-of-contents__link toc-highlight">HTTP 服务器</a></li><li><a href="#http-客户端" class="table-of-contents__link toc-highlight">HTTP 客户端</a></li><li><a href="#http-传输链路" class="table-of-contents__link toc-highlight">HTTP 传输链路</a></li><li><a href="#小结-5" class="table-of-contents__link toc-highlight">小结</a></li><li><a href="#其他" class="table-of-contents__link toc-highlight">其他</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 kenve. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
