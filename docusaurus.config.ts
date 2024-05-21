@@ -59,18 +59,27 @@ const config: Config = {
           position: 'right',
         },
         {
+          to: 'docs/knowledge/introduction',
+          label: '基础知识',
+          activeBaseRegex: 'docs/knowledge/(js|browser|system|introduction)',
+          position: 'right',
+        },
+        {
           to: 'docs/knowledge/data-structure/stack',
           label: '数据结构 & 算法',
           activeBaseRegex: 'docs/knowledge/(data-structure|algorithms)',
           position: 'right',
         },
         {
-          to: 'docs/knowledge/introduction',
-          label: '基础 & 进阶',
-          activeBaseRegex: 'docs/knowledge/(js|browser|system|introduction)',
+          to: 'docs/knowledge/webpack',
+          label: 'Webpack',
           position: 'right',
         },
-
+        {
+          to: 'docs/knowledge/computer-network',
+          label: '计算机网络',
+          position: 'right',
+        },
         {
           href: 'https://github.com/kenve/leetcode',
           label: 'LeetCode 题解',
