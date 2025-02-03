@@ -31,6 +31,7 @@ const config: Config = {
           showReadingTime: true,
           path: 'blog',
           routeBasePath: '/',
+          blogSidebarCount: 20,
         },
         theme: {
           customCss: './src/css/custom.css',

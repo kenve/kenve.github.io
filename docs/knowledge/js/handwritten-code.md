@@ -274,7 +274,8 @@ function clone(target) {
 
 ```js
 function format(str) {
-  str.replace(/(\d)(?=(?:\d{3})+$)/g, '$1,'); // replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+  // num.toString().split('.')[0].replace(/(\d)(?=(\d{3})+(\.|$))/g, (match) => match + ',')
+  return str.replace(/(\d)(?=(?:\d{3})+$)/g, '$1,'); // replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 }
 ```
 
