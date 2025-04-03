@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkenve_github_io=self.webpackChunkkenve_github_io||[]).push([[8604],{1882:e=>{e.exports=JSON.parse('{"permalink":"/tags/ai","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

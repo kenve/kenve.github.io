@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkenve_github_io=self.webpackChunkkenve_github_io||[]).push([[175],{5257:e=>{e.exports=JSON.parse('{"label":"LowCode","permalink":"/tags/low-code","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

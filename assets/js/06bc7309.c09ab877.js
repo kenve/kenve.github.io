@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkenve_github_io=self.webpackChunkkenve_github_io||[]).push([[4218],{8574:e=>{e.exports=JSON.parse('{"label":"Portal","permalink":"/tags/portal","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);
