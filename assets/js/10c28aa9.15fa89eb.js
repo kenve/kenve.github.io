@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkenve_github_io=self.webpackChunkkenve_github_io||[]).push([[4620],{3293:e=>{e.exports=JSON.parse('{"label":"Chrome DevTools","permalink":"/tags/chrome-dev-tools","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

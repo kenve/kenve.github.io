@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkenve_github_io=self.webpackChunkkenve_github_io||[]).push([[9834],{6970:e=>{e.exports=JSON.parse('{"label":"\u5185\u5b58\u6cc4\u6f0f","permalink":"/tags/\u5185\u5b58\u6cc4\u6f0f","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);
