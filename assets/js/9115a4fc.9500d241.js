@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkenve_github_io=self.webpackChunkkenve_github_io||[]).push([[4346],{654:e=>{e.exports=JSON.parse('{"label":"commonjs","permalink":"/tags/commonjs","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);
